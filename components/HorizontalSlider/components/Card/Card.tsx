@@ -37,6 +37,7 @@ const Card = ({ heading, text, background, theme }: IProps) => {
       style={{
         backgroundImage: `url(/images/${background}.svg)`,
       }}
+      key={`card--${heading}`}
     >
       <Heading
         level="h3"

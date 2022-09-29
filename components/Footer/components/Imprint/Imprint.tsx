@@ -25,7 +25,7 @@ const Imprint = () => {
         {content[0]
           ? content[0].content.map((item: any) => {
               return (
-                <>
+                <div key={item.text}>
                   <Heading theme={theme} level="h4" size={HeadingSizes.md}>
                     {item.sectionTitle}
                   </Heading>
@@ -38,12 +38,13 @@ const Imprint = () => {
                           <Bullets
                             bulletTitle={bullet.bulletTitle}
                             bulletText={bullet.bulletText}
+                            key={bullet.title}
                           />
                         );
                       })
                     : null}
                   <VerticalSpacing size={SpacingSizes.xxxl64px} />
-                </>
+                </div>
               );
             })
           : null}

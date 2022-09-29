@@ -162,4 +162,6 @@ const DataPolicy = () => {
   );
 };
 
+DataPolicy.displayName = "DataPolicy";
+
 export default DataPolicy;

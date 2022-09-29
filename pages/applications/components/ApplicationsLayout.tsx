@@ -74,6 +74,7 @@ const ApplicationsLayout = ({ data, id }: IProps) => {
           <Box
             background={BoxBackground.lightGrey}
             borderRadius={BorderRadii.medium24px}
+            key={`${overview.heading}`}
           >
             <div className="row width-100">
               <div className="col-xs-2 col-sm-1">
@@ -108,6 +109,7 @@ const ApplicationsLayout = ({ data, id }: IProps) => {
           <Box
             background={ColourThemes.sustainability.background}
             borderRadius={BorderRadii.medium24px}
+            key={`${sustainability.heading}`}
           >
             <div className="row width-100">
               <div className="col-xs-2 col-sm-1">
@@ -144,6 +146,7 @@ const ApplicationsLayout = ({ data, id }: IProps) => {
         <Box
           background={ColourThemes.evopack.background}
           borderRadius={BorderRadii.medium24px}
+          key={`${solution.heading}`}
         >
           <div className="row width-100">
             <div className="col-xs-12">

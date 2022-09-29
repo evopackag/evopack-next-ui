@@ -22,6 +22,7 @@ const Toggle = ({ options, toggleTop }: IProps) => {
                 language === option.value ? `${styles.activeToggleTop}` : null
               }`}
               id={option.displayText}
+              key={option.displayText}
               onClick={() => setLanguage(option.value)}
             >
               <Text
@@ -47,6 +48,7 @@ const Toggle = ({ options, toggleTop }: IProps) => {
               language === option.value ? "activeToggle" : null
             }`}
             id={option.displayText}
+            key={option.displayText}
             onClick={() => setLanguage(option.value)}
           >
             {option.displayText}
