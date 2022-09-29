@@ -43,6 +43,7 @@ const CardsGrid = ({ data }: IProps) => {
               text={cards.text}
               background={cards.icon}
               theme={cards.theme}
+              key={cards.heading}
             />
           );
         })}
