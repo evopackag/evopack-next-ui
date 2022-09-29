@@ -94,7 +94,7 @@ const ContactForm = forwardRef((data?: any, ref?: any) => {
               </Heading>
               <VerticalSpacing size={SpacingSizes.xs16px} />
               <Text color={TextColour.offWhite} theme="dark" size={TextSize.xl}>
-                We'll get back to you as soon as possible.
+                We&apos;ll get back to you as soon as possible.
               </Text>
               <VerticalSpacing size={SpacingSizes.xl40px} />
               <Button
@@ -196,5 +196,7 @@ const ContactForm = forwardRef((data?: any, ref?: any) => {
     </div>
   );
 });
+
+ContactForm.displayName = "ContactForm";
 
 export default ContactForm;

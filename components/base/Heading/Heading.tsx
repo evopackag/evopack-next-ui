@@ -94,7 +94,6 @@ const Heading = ({
   const [scrolledDistance, setScrolledDistance] = useState(0);
 
   if (typeof window !== "undefined") {
-    console.log("You are on the browser");
     // ✅ Can use window here
     const headingStyleClasses = `${size} ${alignment} ${
       fadeInOnScroll ? "heading--animated" : null

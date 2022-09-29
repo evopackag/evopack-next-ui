@@ -46,8 +46,6 @@ export default function useScrolledDistance(
   //   };
   // });
 
-  // console.log(scrolledDistance);
-
   const returnValue =
     scrolledDistance > triggerScrollDistance ? trueValue : falseValue;
   return returnedValue;

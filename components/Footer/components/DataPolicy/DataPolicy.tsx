@@ -23,7 +23,6 @@ const DataPolicy = () => {
   //   : null;
   // }
 
-  // console.log(sections["policy"].title);
   return (
     <>
       <Heading theme={theme} level="h2" size={HeadingSizes.xl}>
@@ -73,6 +72,7 @@ const DataPolicy = () => {
                         <Bullets
                           bulletTitle={bullet.bulletTitle}
                           bulletText={bullet.bulletText}
+                          key={bullet.bulletTitle}
                         />
                       );
                     })
@@ -113,6 +113,7 @@ const DataPolicy = () => {
                         <Bullets
                           bulletTitle={bullet.bulletTitle}
                           bulletText={bullet.bulletText}
+                          key={bullet.bulletTitle}
                         />
                       );
                     })
@@ -149,6 +150,7 @@ const DataPolicy = () => {
                         <Bullets
                           bulletTitle={bullet.bulletTitle}
                           bulletText={bullet.bulletText}
+                          key={bullet.bulletTitle}
                         />
                       );
                     })

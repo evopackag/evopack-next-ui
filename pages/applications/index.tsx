@@ -27,8 +27,6 @@ const Applications = () => {
 
   const { language } = useContext(GlobalContext);
 
-  console.log(evopackContent);
-
   const { filter } = useContext(TabsContext);
 
   const applicationsContent = evopackContent[language].applications;

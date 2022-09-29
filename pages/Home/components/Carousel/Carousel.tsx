@@ -126,6 +126,7 @@ const Carousel = ({ data }: IProps) => {
               background={card.icon}
               theme={card.theme}
               buttonTheme={card.buttonTheme}
+              key={`learnMoreCard--${heading}`}
             />
           );
         })}

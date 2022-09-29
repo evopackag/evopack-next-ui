@@ -14,41 +14,39 @@ const Imprint = () => {
   const { title, content } = legalContent.imprint;
   return (
     <>
-      <>
-        <Heading theme={theme} level="h2" size={HeadingSizes.xl}>
-          {title}
-        </Heading>
-        <VerticalSpacing size={SpacingSizes.lg32px} />
-        <HorizontalDivider />
-        <VerticalSpacing size={SpacingSizes.lg32px} />
-        <VerticalSpacing size={SpacingSizes.xxxl64px} />
-        {content[0]
-          ? content[0].content.map((item: any) => {
-              return (
-                <div key={item.text}>
-                  <Heading theme={theme} level="h4" size={HeadingSizes.md}>
-                    {item.sectionTitle}
-                  </Heading>
-                  <VerticalSpacing size={SpacingSizes.lg32px} />
-                  <Text theme={theme}>{item.text}</Text>
-                  <VerticalSpacing size={SpacingSizes.xs16px} />
-                  {item.bullets && item.bullets.length > 0
-                    ? item.bullets.map((bullet: any) => {
-                        return (
-                          <Bullets
-                            bulletTitle={bullet.bulletTitle}
-                            bulletText={bullet.bulletText}
-                            key={bullet.title}
-                          />
-                        );
-                      })
-                    : null}
-                  <VerticalSpacing size={SpacingSizes.xxxl64px} />
-                </div>
-              );
-            })
-          : null}
-      </>
+      <Heading theme={theme} level="h2" size={HeadingSizes.xl}>
+        {title}
+      </Heading>
+      <VerticalSpacing size={SpacingSizes.lg32px} />
+      <HorizontalDivider />
+      <VerticalSpacing size={SpacingSizes.lg32px} />
+      <VerticalSpacing size={SpacingSizes.xxxl64px} />
+      {content[0]
+        ? content[0].content.map((item: any) => {
+            return (
+              <div key={item.text}>
+                <Heading theme={theme} level="h4" size={HeadingSizes.md}>
+                  {item.sectionTitle}
+                </Heading>
+                <VerticalSpacing size={SpacingSizes.lg32px} />
+                <Text theme={theme}>{item.text}</Text>
+                <VerticalSpacing size={SpacingSizes.xs16px} />
+                {item.bullets && item.bullets.length > 0
+                  ? item.bullets.map((bullet: any) => {
+                      return (
+                        <Bullets
+                          bulletTitle={bullet.bulletTitle}
+                          bulletText={bullet.bulletText}
+                          key={bullet.title}
+                        />
+                      );
+                    })
+                  : null}
+                <VerticalSpacing size={SpacingSizes.xxxl64px} />
+              </div>
+            );
+          })
+        : null}
     </>
   );
 };

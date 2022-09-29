@@ -26,6 +26,7 @@ const Tabs = ({ data }: IProps) => {
               label={tab}
               active={tab === filter}
               handleClick={() => setFilter(tab)}
+              key={tab.label}
             />
           );
         })}
