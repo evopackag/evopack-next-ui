@@ -1,0 +1,23 @@
+.applicationsLayout {
+  max-width: 1200px;
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    gap: 1.5rem;
+  }
+
+  &__relatedServices {
+    max-width: 600px;
+  }
+}
+
+.box__evopackLogo {
+  width: 146px;
+}
+
+@media screen and (max-width: 450px) {
+  .box__evopackLogo {
+    width: 100px;
+  }
+}

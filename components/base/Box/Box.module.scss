@@ -1,0 +1,19 @@
+.box {
+  // padding:
+  max-width: 1400px;
+  min-width: 300px;
+  flex-basis: 0;
+  flex-grow: 3;
+  width: 100%;
+  // width: max-content;
+}
+
+@media screen and (max-width: 450px) {
+  .box {
+    // margin-bottom: 2rem;
+    & + .box {
+      margin-left: 0;
+    }
+  }
+  
+}

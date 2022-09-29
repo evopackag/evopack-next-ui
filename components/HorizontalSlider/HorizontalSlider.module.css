@@ -1,0 +1,35 @@
+.horizontalSlider {
+  height: 80vh;
+  width: 100vw;
+}
+
+.horizontalSlider__content {
+  display: flex;
+  justify-content: center;
+  max-height: 800px;
+  overflow-x: scroll;
+}
+
+.horizontalSlider::-webkit-scrollbar,
+.horizontalSlider__content::-webkit-scrollbar {
+  display: none;
+}
+
+.horizontalSlider::-webkit-scrollbar,
+.horizontalSlider__content::-webkit-scrollbar {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+}
+
+@media screen and (max-width: 768px) {
+  .horizontalSlider {
+    height: unset !important;
+    padding: 0;
+  }
+  .horizontalSlider__content {
+    flex-direction: column;
+    align-items: center;
+    max-height: none;
+  }
+}

@@ -1,0 +1,44 @@
+.checkboxitem {
+  width: min-content;
+  box-shadow: inset 0 0 0 0px var(--primary-blue);
+  border-radius: 40rem;
+  background: var(--white-blue);
+  white-space: nowrap;
+  position: relative;
+  cursor: pointer;
+  transition: ease-in-out all 100ms;
+  z-index: 6;
+  padding: 0.5em 2em;
+  box-shadow: inset 0 0 0 0px var(--primary-green);
+
+  &--active {
+    box-shadow: inset 0 0 0 3px var(--primary-blue);
+    background: var(--primary-blue);
+    color: white;
+  }
+
+  &:hover {
+    box-shadow: inset 0 0 0 3px var(--primary-green);
+  }
+
+  & input[type="checkbox"]:checked {
+    background: rgba(91, 124, 116, 0.2);
+    cursor: pointer;
+  }
+
+  & input[type="checkbox"] {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: none;
+    color: transparent;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    background: none;
+    opacity: 0;
+  }
+}

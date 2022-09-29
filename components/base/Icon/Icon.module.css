@@ -1,0 +1,98 @@
+.icon {
+  transition: all ease-in-out 250ms;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon--md {
+  width: 1.125rem;
+  height: 1.125rem;
+  border-radius: 50%;
+}
+
+.icon--border-white {
+  border: 2px solid #fff;
+}
+
+.icon--border-blue {
+  border: 2px solid var(--primary-blue);
+}
+
+.icon-button {
+  cursor: pointer;
+  border-radius: 100rem;
+}
+.icon-button--disabled {
+  pointer-events: none;
+  border: 2px solid var(--light-grey);
+  filter: saturate(0);
+}
+
+.icon--xs {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+
+.icon--sm {
+  width: 1rem;
+  height: 1rem;
+}
+
+.icon--md {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.icon--lg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.icon--xl {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.icon__text {
+  position: absolute;
+  top: -2rem;
+  right: 0;
+  display: flex;
+  opacity: 0;
+  transition: all ease-in-out 250ms;
+}
+
+.icon:hover > .icon__text {
+  opacity: 1;
+}
+
+.icon-size--xs {
+  width: 0.75rem;
+  height: 0.75rem;
+}
+.icon-size--sm {
+  width: 1rem;
+  height: 1rem;
+}
+.icon-size--md {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.icon-size--lg {
+  width: 2rem;
+  height: 2rem;
+}
+.icon-size--xl {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.icon-size--xxl {
+  width: 3rem;
+  height: 3rem;
+}
+.icon-size--xxxl {
+  width: 6rem;
+  height: 6rem;
+}

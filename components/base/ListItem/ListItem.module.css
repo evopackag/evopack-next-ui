@@ -1,0 +1,26 @@
+.listItem {
+  width: 100%;
+}
+.listItem__iconContainer {
+  border-radius: 100rem;
+  background: #F3FCF8;
+}
+.listItem__iconContainer * {
+  margin-right: 0;
+}
+.listItem__text {
+  max-width: 80%;
+}
+
+@media screen and (max-width: 450px) {
+  .listItem {
+    flex-direction: column;
+    align-items: center;
+  }
+  .listItem__iconContainer {
+    margin-right: 0;
+  }
+  .listItem div p {
+    text-align: center;
+  }
+}

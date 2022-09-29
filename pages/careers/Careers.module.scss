@@ -1,0 +1,33 @@
+.careers {
+  &__heroSection {
+    min-height: auto;
+    width: 100%;
+  }
+
+  &__heroContent {
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__ctas {
+    margin-top: 4rem;
+    & a:nth-of-type(1) {
+      margin-right: 1rem;
+    }
+  }
+  &__heroSectionHeading {
+    width: fit-content;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .careers {
+    &__ctas {
+      flex-direction: row;
+      & button:nth-of-type(1) {
+        margin-right: 0rem;
+      }
+    }
+  }
+}

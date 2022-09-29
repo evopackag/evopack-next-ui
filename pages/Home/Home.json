@@ -1,0 +1,207 @@
+{
+  "english": {
+    "heroSection": {
+      "title": "Perfect Product Performance. Every time.",
+      "subTitle": "Reduce your costs and impact on the planet with more efficient packaging - helping you eliminate waste and save money.",
+      "CTA": "Get expert support",
+      "navigationLinks": [{"label": "Applications", "urlPath": "/applications"}, {"label": "Careers", "urlPath": "/careers"}, {"label": "About EVOPACK", "urlPath": "/about"}],
+      "productAreas": ["Paints and Coatings", "Adhesives", "Polymer Dispersions", "Home Products"]
+    },
+    "servicesSection": {
+      "title": "What we can do for you",
+      "services": [
+        {
+          "title": "Packaging Design",
+          "text": "Our packaging solutions improve safety, compliance and sustainability over the entire product life cycle.",
+          "icon": "packaging--medium-blue",
+          "theme": "blue"
+        },
+        {
+          "title": "Sustainablility Consulting",
+          "text": "Save money and the planet by reducing the need for biocides in your products.",
+          "icon": "question",
+          "theme": "green"
+        },
+        {
+          "title": "Hygiene Control",
+          "text": "Protect your product’s quality and compliance with minimal effort and chemicals.",
+          "icon": "lock",
+          "theme": "white"
+        }
+      ]
+    },
+    "quoteSection": {
+      "quote": "At Evopack, we have made it our mission to identify and optimise outdated packaging concepts. We believe in an evolution of packaging towards more sustainable and less impactful packaging. Our mission is to drive this evolution. We develop packaging for a better future.",
+      "author": "Ankith Subramanian",
+      "authorPosition": "Head of Engineering"
+    },
+    "valuesSection": {
+      "title": "Sustainablility",
+      "titleUnderlined": "throughout",
+      "subTitle": "Only by living a sustainable philosophy can you develop sustainable products.",
+      "values": [
+        {
+          "title": "Reduction of transport emissions",
+          "text": "Our packaging solutions improve safety, compliance and sustainability over the entire product life cycle.",
+          "buttonText": "Learn More",
+          "icon": "emissions",
+          "theme": "white",
+          "buttonTheme": "blue"
+        },
+        {
+          "title": "Developing resource efficient packaging solutions",
+          "text": "Save money and the planet by minimising the use of materials in your packaging without compromising product integrity.",
+          "buttonText": "Learn More",
+          "icon": "trees",
+          "theme": "blue",
+          "buttonTheme": "white"
+        },
+        {
+          "title": "Reduce the use of harmful additives",
+          "text": "Protect your product’s quality and compliance with minimal effort and chemicals.",
+          "buttonText": "Learn More",
+          "icon": "chemistry",
+          "theme": "white",
+          "buttonTheme": "blue"
+        },
+        {
+          "title": "Design for a circular economy",
+          "text": "Our ultimate goal is creating packaging that can be completely reused or repurposed with minimal required effort.",
+          "buttonText": "Learn More",
+          "icon": "cycle--light-grey",
+          "theme": "blue",
+          "buttonTheme": "white"
+        },
+        {
+          "title": "Recycled materials",
+          "text": "We constantly look to use recycled materials in ways that is truly more sustainble, not just to write it on the tin.",
+          "buttonText": "Learn More",
+          "icon": "leaf--light-grey",
+          "theme": "white",
+          "buttonTheme": "blue"
+        }
+      ]
+    },
+    "contactSection": {
+      "title": "Drop us a line",
+      "firstNamePlaceholder": "Full name",
+      "lastNamePlaceholder": "Company",
+      "emailPlaceholder": "Email",
+      "phonePlaceholder": "Phone",
+      "messagePlaceholder": "Message",
+      "GDPRCheckboxText": "Tick this box to sign up for marketing - you can unsubscribe at any time.",
+      "buttonText": "Send Message"
+    },
+    "footer": {
+      "subscriptionLabel": "Be the first to know",
+      "subscriptionPlaceholder": "Enter your email",
+      "imprintLinkLabel": "Imprint",
+      "dataPolicyLinkLabel": "Data Policy"
+    }
+
+  },
+  "german": {
+    "heroSection": {
+      "title": "Optimale Produktleistung. Jedes Mal.",
+      "subTitle": "Guarantieren Sie optimale Produktleistung mit effizienten Verpackungslösungen, während Sie gleichzeitig Kosten und Abfall reduzieren.",
+      "CTA": "Produktexperten kontaktieren",
+      "navigationLinks": [{"label": "Anwendungen", "urlPath": "/applications"}, {"label": "Jobs & Karriere", "urlPath": "/careers"}, {"label": "Über EVOPACK", "urlPath": "/about"}],
+      "productAreas": ["Farben und Beschichtungen", "Klebstoffe", "Polymer-Dispersionen", "Haushaltspflege"]
+    },
+    "servicesSection": {
+      "title": "Was wir für Sie tun können",
+      "services": [
+      {
+        "title": "Verpackungs-lösungen",
+        "text": "Unsere Lösungen beschützen Ihr Produkt nachhaltig während des gesamten Produkt-lebenszykluses und gewährleisten langfristige Produktintegrit.",
+        "icon": "packaging--medium-blue",
+        "theme": "blue"
+      },
+      {
+        "title": "Verpackungs-beratung",
+        "text": "Sparen Sie Geld und retten Sie den Planeten, indem Sie mit uns Ihre spezifischen Verpackungslösungen entwickeln und optimieren.",
+        "icon": "question",
+        "theme": "green"
+      },
+      {
+        "title": "Hygiene-kontrolle",
+        "text": "Schützen Sie die Qualität und Konformität Ihrer Produkte mit minimalem Aufwand und minimalem Chemikalieneinsatz.",
+        "icon": "lock",
+        "theme": "white"
+      }
+      ]
+    },
+    "quoteSection": {
+      "quote": "Wir bei Evopack haben es uns zur Aufgabe gemacht, veraltete Verpackungskonzepte zu identifizieren und zu optimieren. Wir glauben an eine Evolution der Verpackung hin zu nachhaltigeren und weniger belastenden Verpackungen. Unsere Aufgabe ist es, diese Entwicklung voranzutreiben. Wir entwickeln Verpackungen für eine bessere Zukunft.",
+      "author": "Ankith Subramanian",
+      "authorPosition": "Leitung Konstruktion"
+    },
+    "valuesSection": {
+      "title": "Nachhaltigkeit",
+      "titleUnderlined": "durch und durch",
+      "subTitle": "Nur wenn man eine nachhaltige Philosophie lebt, kann man nachhaltige Produkte entwickeln.",
+      "values": [
+        {
+          "title": "Reduktion von Emissionen",
+          "text": "Bis zu 25 % der weltweiten CO2-Emissionen stammen aus dem Verkehrssektor. Durch die Optimierung und Neuentwicklung von Verpackungen können die Transport- und Herstellungsemissionen verringert werden.",
+          "buttonText": "Mehr erfahren",
+          "icon": "emissions",
+          "theme": "white",
+          "buttonTheme": "blue"
+        },
+        {
+          "title": "Reduktion von Abfällen",
+          "text": "Der Einsatz von Verpackungsmaterial sollte so gering wie möglich sein, aber hoch genug, um die Produktintegrität zu gewährleisten. Die Verpackung wird so gestaltet, dass Leistung und Materialoptimierung erfüllt sind. Durch den Einsatz der richtigen Verpackung kann der Produkt- und Verpackungsabfall reduziert werden.",
+          "buttonText": "Mehr erfahren",
+          "icon": "trees",
+          "theme": "blue",
+          "buttonTheme": "white"
+        },
+        {
+          "title": "Reduktion von schädlichen Zusatzstoffen",
+          "text": "Vor allem Industrieprodukte werden mit umweltschädlichen Zusatzstoffen versehen, um die Unversehrtheit des Produkts während seiner Haltbarkeitsdauer zu gewährleisten. Durch den Einsatz der richtigen Verpackung kann die Verwendung solcher Zusatzstoffe reduziert oder ganz vermieden werden.",
+          "buttonText": "Mehr erfahren",
+          "icon": "chemistry",
+          "theme": "white",
+          "buttonTheme": "blue"
+        },
+        {
+          "title": "Design für Recycling oder Wieder-verwendung",
+          "text": "Verpackungen sollten immer so gestaltet sein, dass sie effektiv zurückgewonnen und in biologischen und/oder industriellen Kreisläufen verwertet werden können.",
+          "buttonText": "Mehr erfahren",
+          "icon": "cycle--light-grey",
+          "theme": "blue",
+          "buttonTheme": "white"
+        },
+        {
+          "title": "Verwendung erneuerbarer und recycelter Materialien",
+          "text": "Die Verwendung von erneuerbaren und recycelten Materialien wird immer dann bevorzugt, wenn diese nachhaltiger ist. Dabei darf Greenwashing nicht der Hauptgrund für die Verwendung solcher Materialien sein.",
+          "buttonText": "Mehr erfahren",
+          "icon": "leaf--light-grey",
+          "theme": "white",
+          "buttonTheme": "blue"
+        }
+      ]
+    },
+    "contactSection": {
+      "title": "Kontaktieren Sie uns",
+      "firstNamePlaceholder": "Name",
+      "lastNamePlaceholder": "Firma",
+      "emailPlaceholder": "E-Mail",
+      "phonePlaceholder": "Telefon",
+      "messagePlaceholder": "Nachricht",
+      "GDPRCheckboxText": "Aktivieren Sie dieses Feld, um Neuigkeiten von uns zu erhalten.",
+      "buttonText": "Nachricht senden"
+    },
+    "footer": {
+      "subscriptionLabel": "Erfahren Sie alles zuerst",
+      "subscriptionPlaceholder": "Ihre E-Mail",
+      "imprintLinkLabel": "Impressum",
+      "dataPolicyLinkLabel": "Datenschutz"
+    }
+
+  },
+  "french":{
+
+  }
+}

@@ -1,0 +1,39 @@
+.verticalSpacing--xxxxs {
+  height: 0.25rem;
+}
+.verticalSpacing--xxxs {
+  height: 0.5rem;
+}
+.verticalSpacing--xxs {
+  height: 0.75rem;
+}
+.verticalSpacing--xs {
+  height: 1rem;
+}
+.verticalSpacing--sm {
+  height: 1.25rem;
+}
+.verticalSpacing--md {
+  height: 1.5rem;
+}
+.verticalSpacing--lg {
+  height: 2rem;
+}
+.verticalSpacing--xl {
+  height: 2.5rem;
+}
+.verticalSpacing--xxl {
+  height: 3rem;
+}
+.verticalSpacing--xxxl {
+  height: 4rem;
+}
+.verticalSpacing--xxxxl {
+  height: 6rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .spacing--lg {
+    height: 4rem;
+  }
+}

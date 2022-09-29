@@ -1,0 +1,48 @@
+.horizontalSlider {
+  height: 100vh;
+  width: 100%;
+}
+
+.carousel {
+  width: 100%;
+}
+
+.carousel__fullWidthBox {
+  display: flex;
+  justify-content: flex-start;
+  /* max-height: 800px; */
+  /* min-height: 725px; */
+  transition: transform 300ms ease-in;
+  padding: 3rem 2.5rem 1rem;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 0 2rem;
+}
+.carousel__fullWidthBox::-webkit-scrollbar, .carousel__fullWidthBox::-webkit-scrollbar {
+  display: none;
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+}
+
+/* .carousel__fullWidthBox:nth-child(1) {
+  align-self: flex-end;
+} */
+.horizontalSlider::-webkit-scrollbar,
+.horizontalSlider__content::-webkit-scrollbar {
+  display: none;
+}
+
+.horizontalSlider::-webkit-scrollbar,
+.horizontalSlider__content::-webkit-scrollbar {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+}
+
+.carousel__stepper {
+  width: 100%;
+}
+.carousel__stepper > a:first-of-type {
+  margin-right: 2rem;
+}

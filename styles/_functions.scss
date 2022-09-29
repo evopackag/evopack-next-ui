@@ -1,0 +1,3 @@
+@function evopack-colour($key: 'primary-blue') {
+  @return map-get($evopack-colours, $key);
+}

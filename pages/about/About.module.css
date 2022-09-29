@@ -1,0 +1,12 @@
+.about__heroSection {
+  min-height: auto;
+  width: 100%;
+}
+.about__heroContent {
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.about__heroSectionHeading {
+  width: fit-content;
+}

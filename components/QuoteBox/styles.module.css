@@ -1,0 +1,74 @@
+.quoteBox {
+  min-height: 130vh;
+  width: 100%;
+  background-color: #1b1b2d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.quoteBox > p {
+  display: inherit;
+}
+
+.quoteBox__text {
+  color: var(--white);
+  text-align: center;
+  position: relative;
+  max-width: 1300px;
+}
+
+.quoteBox__author {
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+}
+
+.startQuote p,
+.endQuote p {
+  display: inline;
+  position: relative;
+}
+
+.startQuote::before {
+  content: url(/icons/start-quotes.svg);
+  display: inline-block;
+  position: absolute;
+  top: -1.5rem;
+  left: -2rem;
+}
+
+.endQuote::after {
+  content: url(/icons/end-quotes.svg);
+  display: inline-block;
+  position: absolute;
+  bottom: 0rem;
+  right: -2rem;
+}
+
+/* .quoteBox__text::before {
+  content: url(/start-quotes.svg);
+  position: absolute;
+  top: -1rem;
+  left: 0;
+}
+
+.quoteBox__text::after {
+  content: url(/end-quotes.svg);
+  position: absolute;
+  bottom: 1rem;
+  right: 0;
+} */
+/* .startQuote::before {
+  content: url(/start-quotes.svg);
+  position: absolute;
+  top: -1rem;
+  left: 0;
+}
+
+.endQuote::after {
+  content: url(/end-quotes.svg);
+  position: absolute;
+  bottom: 1rem;
+  right: 0;
+} */

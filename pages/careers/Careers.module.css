@@ -1,0 +1,27 @@
+.careers__heroSection {
+  min-height: auto;
+  width: 100%;
+}
+.careers__heroContent {
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.careers__ctas {
+  margin-top: 4rem;
+}
+.careers__ctas a:nth-of-type(1) {
+  margin-right: 1rem;
+}
+.careers__heroSectionHeading {
+  width: fit-content;
+}
+
+@media screen and (max-width: 450px) {
+  .careers__ctas {
+    flex-direction: row;
+  }
+  .careers__ctas button:nth-of-type(1) {
+    margin-right: 0rem;
+  }
+}

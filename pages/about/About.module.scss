@@ -1,0 +1,17 @@
+.about {
+  &__heroSection {
+    min-height: auto;
+    width: 100%;
+  }
+
+  &__heroContent {
+    // min-height: 100vh;
+    min-height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__heroSectionHeading {
+    width: fit-content;
+  }
+}

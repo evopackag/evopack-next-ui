@@ -1,0 +1,73 @@
+.toggle {
+  padding: 0.25rem 0.25rem;
+  background: var(--off-white);
+  color: var(--primary-blue);
+  border-radius: 100rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.toggle__option {
+  all: unset;
+  padding: 6px;
+  border-radius: 100rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  outline: 2px solid var(--off-white);
+}
+
+.toggle__option:last-of-type {
+  margin-right: 0;
+}
+
+.activeToggle {
+  background: var(--primary-blue);
+  color: var(--off-white);
+}
+
+.toggle__option:hover {
+  background: none;
+  outline: 2px solid var(--primary-blue);
+  color: var(--primary-blue);
+  transition: 250ms ease-in-out all;
+}
+
+.toggleTop {
+  padding: 0.25rem;
+  background: #e1e1e1;
+  color: var(--primary-blue);
+  border-radius: 100rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.toggleTop__option {
+  all: unset;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 100rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-right: 0.25rem;
+  box-shadow: 0 0 0 0px var(--primary-blue);
+}
+.toggleTop__option:last-of-type {
+  margin-right: 0;
+}
+.toggleTop__option:hover {
+  border-radius: 100rem;
+  background: none;
+  box-shadow: 0 0 0 2px var(--primary-blue);
+  color: var(--primary-blue);
+  transition: 250ms ease-in-out all;
+}
+.toggleTop .activeToggleTop {
+  background: white;
+  box-shadow: inset 0 0 0 2px white;
+}

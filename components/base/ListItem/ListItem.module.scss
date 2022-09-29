@@ -1,0 +1,28 @@
+.listItem {
+  width: 100%;
+  &__iconContainer {
+    border-radius: 100rem;
+    background: #F3FCF8;
+    & * {
+      margin-right: 0;
+    }
+  }
+
+  &__text {
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .listItem {
+    flex-direction: column;
+    align-items: center;
+    &__iconContainer {
+      margin-right: 0;
+    }
+    & div p {
+      text-align: center;
+    }
+  }
+  
+}

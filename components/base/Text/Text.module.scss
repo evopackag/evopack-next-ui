@@ -1,0 +1,146 @@
+// @font-face {
+//   font-family: 'BasierCircle';
+//   src: url('../../../public/BasierCircle/BasierCircle-Regular.otf');
+//   // src: url('../asset/OpenSans/OpenSans-Medium.ttf');
+//   font-weight: 400;
+//   font-style: normal;
+// }
+
+.text {
+  max-width: 50ch;
+  line-height: 1.5;
+  // font-family: 'BasierCircle', sans-serif;
+  font-weight: 400;
+}
+
+// p[data-context='endQuote'], p[data-context='startQuote'], p[data-context='startQuote'] + p {
+//   display: inline;
+// }
+
+.text--light {
+  color: var(--primary-blue);
+}
+
+.text {
+  &-colour {
+   &--grey-blue {
+    color: var(--grey-blue);
+  }
+  &--off-white {
+    color: var(--off-white);
+  } 
+  }
+  &-size {
+    &--xs {
+      font-size: 0.75rem;
+    }
+    &--sm {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+    &--md {
+      font-size: 1.125rem;
+      line-height: 1.5;
+    }
+    &--lg {
+      font-size: 1.25rem;
+      line-height: 1.5;
+    }
+    &--xl {
+      font-size: 1.5rem;
+      line-height: 1.5;
+    }
+    &--xxl {
+      font-size: 3rem;
+      line-height: 1.5;
+    }
+  }
+  &-weight {
+    &--200 {
+      font-weight: 200;
+    }
+    &--300 {
+      font-weight: 300;
+    }
+    &--400 {
+      font-weight: 400;
+    }
+    &--500 {
+      font-weight: 500;
+    }
+    &--700 {
+      font-weight: 700;
+    }
+    &--900 {
+      font-weight: 900;
+    }
+  }
+
+  &--bold {
+    font-weight: 700;
+  }
+  
+}
+
+.text--dark {
+  color: var(--off-white);
+}
+
+.text--animated {
+  // animation: fadeUp 1000ms ease-in-out forwards;
+  transform: translateY(1rem);
+  // opacity: 0;
+}
+
+@keyframes fadeUp {
+  0% {
+    transform: translateY(0.25rem);
+    opacity: 0;
+  } 100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.endQuote[data-context='endQuote'], .startQuote[data-context='startQuote'], .startQuote[data-context='startQuote'] + p {
+  display: inline;
+}
+
+.startQuote p,
+.endQuote p {
+  display: inline;
+}
+
+.startQuote::before {
+  content: url(/icons/start-quotes.svg);
+  display: inline-block;
+  position: absolute;
+  top: -1.5rem;
+  left: -2rem;
+}
+
+.endQuote::after {
+  content: url(/icons/end-quotes.svg);
+  display: inline-block;
+  position: absolute;
+  bottom: 0rem;
+  right: -1rem;
+}
+
+@media screen and (max-width: 992px) {
+  .startQuote::before {
+    content: url(/icons/start-quote--mobile.svg);
+    display: inline-block;
+    position: absolute;
+    top: -1rem;
+    left: -1rem;
+  }
+
+  .endQuote::after {
+    content: url(/icons/end-quote--mobile.svg);
+    display: inline-block;
+    position: absolute;
+    bottom: 0rem;
+    right: -1rem;
+  }
+}

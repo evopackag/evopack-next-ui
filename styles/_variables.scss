@@ -1,0 +1,20 @@
+$evopack-colours: (
+  'primary-blue': #1b1b2d,
+  'primary-blue-25perc-solid': #C6C6CA,
+  'primary-blue-20perc':  rgb(27, 27, 45, 0.2),
+  'primary-green': #30c07b,
+  'primary-green-25perc-solid': #CBEFDE,
+  'primary-green-dark': #1c945a,
+  'sustain-green': #1A8854,
+  'off-white': #f5f5f7,
+  'secondary-blue': #616aa5,
+  'grey-blue': #595972,
+  'white-blue': #e4e4f5,
+  'medium-blue': #272739,
+  'medium-blue-gradient': linear-gradient(
+    84.79deg,
+    #1b1b2d -28.29%,
+    #2c2c59 105.1%
+  ),
+  'light-grey': rgb(196, 196, 196)
+) !default;

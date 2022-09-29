@@ -1,0 +1,173 @@
+{
+  "english": {
+    "heroSection": {
+      "title": "Next Generation Packaging",
+      "subTitle": "Sustainable solutions for enhanced product integrity",
+      "CTA": "Contact Us",
+      "navigationLinks": [{"label": "Careers", "urlPath": "/careers"}, {"label": "About EVOPACK", "urlPath": "/about"}],
+      "productAreas": ["Paints and Coatings", "Adhesives", "Polymer Dispersions", "Home Products"]
+    },
+    "servicesSection": {
+      "title": "What we do for you",
+      "services": [
+        {
+          "title": "Packaging Design",
+          "text": "Our packaging solutions improve safety, compliance and sustainability over the entire product life cycle.",
+          "icon": "packaging--medium-blue",
+          "theme": "blue"
+        },
+        {
+          "title": "Sustainablility Consulting",
+          "text": "Save money and the planet by reducing the need for biocides in your products.",
+          "icon": "question",
+          "theme": "green"
+        },
+        {
+          "title": "Hygiene Control",
+          "text": "Protect your product’s quality and compliance with minimal effort and chemicals.",
+          "icon": "lock",
+          "theme": "white"
+        }
+      ]
+    },
+    "quoteSection": {
+      "quote": "At Evopack, we have made it our mission to identify and optimise outdated packaging concepts. We believe in an evolution of packaging towards more sustainable and less impactful packaging. Our mission is to drive this evolution. We develop packaging for a better future.",
+      "author": "Test Person",
+      "authorPosition": "Head of Engineering"
+    },
+    "valuesSection": {
+      "title": "Sustainablility throughout",
+      "subTitle": "Only by living a sustainable philosophy can you develop sustainable products.",
+      "values": [
+        {
+          "title": "Reduction of transport emissions",
+          "text": "Our packaging solutions improve safety, compliance and sustainability over the entire product life cycle.",
+          "buttonText": "Learn More",
+          "icon": "emissions",
+          "theme": "white",
+          "buttonTheme": "blue"
+        },
+        {
+          "title": "Developing resource efficient packaging solutions",
+          "text": "Save money and the planet by reducing the need for biocides in your products.",
+          "buttonText": "Learn More",
+          "icon": "trees",
+          "theme": "blue",
+          "buttonTheme": "white"
+        },
+        {
+          "title": "Reduce the use of harmful additives",
+          "text": "Protect your product’s quality and compliance with minimal effort and chemicals.",
+          "buttonText": "Learn More",
+          "icon": "chemistry",
+          "theme": "white",
+          "buttonTheme": "blue"
+        }
+      ]
+    },
+    "contactSection": {
+      "title": "Drop us a line",
+      "firstNamePlaceholder": "First Name",
+      "lastNamePlaceholder": "Last Name",
+      "emailPlaceholder": "Email",
+      "phonePlaceholder": "Phone",
+      "messagePlaceholder": "Message",
+      "GDPRCheckboxText": "Tick this box to sign up for marketing - you can unsubscribe at any time.",
+      "buttonText": "Send Message"
+    },
+    "footer": {
+      "subscriptionLabel": "Be the first to know",
+      "subscriptionPlaceholder": "Enter your email",
+      "imprintLinkLabel": "Imprint",
+      "dataPolicyLinkLabel": "Data Policy"
+    }
+
+  },
+  "german": {
+    "heroSection": {
+      "title": "Verpackungen der Zukunft",
+      "subTitle": "Nachhaltige Lösungen für eine verbesserte Produktintegrität",
+      "CTA": "Kontakt",
+      "navigationLinks": [{"label": "Jobs & Karriere", "urlPath": "/careers"}, {"label": "Über EVOPACK", "urlPath": "/about"}],
+      "productAreas": ["Farben und Beschichtungen", "Klebstoffe", "Polymer-Dispersionen", "Haushaltspflege"]
+    },
+    "servicesSection": {
+      "title": "Was wir für Sie tun",
+      "services": [
+      {
+        "title": "Verpackungslösungen",
+        "text": "Our packaging solutions improve safety, compliance and sustainability over the entire product life cycle.",
+        "icon": "packaging--medium-blue",
+        "theme": "blue"
+      },
+      {
+        "title": "Nachhaltigkeits Beratung",
+        "text": "Save money and the planet by reducing the need for biocides in your products.",
+        "icon": "question",
+        "theme": "green"
+      },
+      {
+        "title": "Hygiene Konzept",
+        "text": "Protect your product’s quality and compliance with minimal effort and chemicals.",
+        "icon": "lock",
+        "theme": "white"
+      }
+      ]
+    },
+    "quoteSection": {
+      "quote": "Hier bei Evopack, we have made it our mission to identify and optimise outdated packaging concepts. We believe in an evolution of packaging towards more sustainable and less impactful packaging. Our mission is to drive this evolution. We develop packaging for a better future.",
+      "author": "Eine Person",
+      "authorPosition": "Head of Engineering"
+    },
+    "valuesSection": {
+      "title": "Nachhaltigkeit immer",
+      "subTitle": "Only by living a sustainable philosophy can you develop sustainable products.",
+      "values": [
+        {
+          "title": "Reduction of transport emissions",
+          "text": "Our packaging solutions improve safety, compliance and sustainability over the entire product life cycle.",
+          "buttonText": "Learn More",
+          "icon": "emissions",
+          "theme": "white",
+          "buttonTheme": "blue"
+        },
+        {
+          "title": "Developing resource efficient packaging solutions",
+          "text": "Save money and the planet by reducing the need for biocides in your products.",
+          "buttonText": "Learn More",
+          "icon": "trees",
+          "theme": "blue",
+          "buttonTheme": "white"
+        },
+        {
+          "title": "Reduce the use of harmful additives",
+          "text": "Protect your product’s quality and compliance with minimal effort and chemicals.",
+          "buttonText": "Learn More",
+          "icon": "chemistry",
+          "theme": "white",
+          "buttonTheme": "blue"
+        }
+      ]
+    },
+    "contactSection": {
+      "title": "Kontaktieren Sie uns",
+      "firstNamePlaceholder": "First Name",
+      "lastNamePlaceholder": "Last Name",
+      "emailPlaceholder": "Email",
+      "phonePlaceholder": "Phone",
+      "messagePlaceholder": "Message",
+      "GDPRCheckboxText": "Tick this box to sign up for marketing - you can unsubscribe at any time.",
+      "buttonText": "Send Message"
+    },
+    "footer": {
+      "subscriptionLabel": "Erfahren Sie alles zuerst",
+      "subscriptionPlaceholder": "Enter your email",
+      "imprintLinkLabel": "Imprint",
+      "dataPolicyLinkLabel": "Datenschutz"
+    }
+
+  },
+  "french":{
+
+  }
+}

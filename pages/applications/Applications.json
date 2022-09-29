@@ -1,0 +1,677 @@
+{
+  "english": {
+    "applicationAreas": [
+      {
+        "sectionHeading": "Paints and Coatings",
+        "subheading": "At Evopack, we understand paint.",
+        "heroImage": "applicationsImages__paints.jpg",
+        "overview": {
+          "component": "TextBox",
+            "heading": "Biocides in paints",
+            "headingFontColour": "#075932",
+            "text": "In the 21st century, coatings mainly fulfill functional properties for products in addition to pure coloring. Coatings protect computer chips from short circuits, ensure hygiene on surfaces in the medical sector, or increase the service life of objects through corrosion protection.",
+            "icon": "leaf",
+            "iconColour": "--sustain-green"
+        },
+        "sustainability": {
+          "component": "TextBox",
+            "heading": "Sustainability in the paints industry",
+            "headingFontColour": "#075932",
+            "text": "The sustainability trend is demanding many new requirements in the paint industry as well, especially in the area of interior wall dispersion paints and paints for children's toys. Directives and legal regulations are increasingly limiting or eliminating raw materials. This affects so-called VOC (organic solvents) contents, preservatives and substances such as isocyanates, which are used to harden some paints.",
+            "icon": "leaf",
+            "iconColour": "--sustain-green",
+            "backgroundColour": "#FFF7EF"
+        },
+        "solution": {
+          "component": "TextBox",
+          "heading": "It's time to rethink",
+          "text": "At Evopack, we offer solutions for the paint and coatings industry that help ensure product integrity down to the last drop. This means that none or the least possible amount of toxic substances are used in the production process.",
+          "icon": "leaf",
+          "iconColour": "--sustain-green",
+          "backgroundColour": "#FFF7EF"
+        }, 
+        "children": [
+          {
+            "component": "TextBox",
+            "heading": "Sustainability in the paints industry",
+            "headingFontColour": "#075932",
+            "text": "Sie stellen die Basis vieler Formulierungen dar und werden in großen Mengen eingesetzt. Ein Klarlack besteht aus bis zu 99 %, Beton für Hochhäuser aus bis zu 10 % und Klebstoffe aus beihnahe 100 % Bindemitteldispersion. In den meisten Fällen werden Bindemitteldispersionen in der Industrie zu anderen Produkten weiter-verarbeitet, bevor sie an den Endkonsumenten gelangen. Dies erfordert maximale Performance: zuverlässig und langfristig.",
+            "icon": "leaf",
+            "iconColour": "--sustain-green",
+            "backgroundColour": "#FFF7EF"
+          },
+          {
+            "component": "TextBox",
+            "heading": "Biocides in paints",
+            "text": "In der Vergangenheit wurden effektive Biozide wie MIT oder CMIT eingesetzt, um Wasch- und Reinigungsmittel bis zum Endkonsumenten kontaminationsfrei zu halten. Die Produkte waren damit bis zum vollständigen Verbrauch sicher."
+          },
+          {
+            "component": "TextBox",
+            "heading": "It's time to rethink",
+            "text": "Wir von Evopack bieten für die Reinigungsmittel-industrie Lösungen, die helfen die Produkt-integrität bis zum letzten Tropfen zu gewähr-leisten. Dabei sollen keine oder möglichst wenig gefährliche Rohstoffe eigesetzt werden."
+          },
+          {
+            "component": "LargeCard",
+            "heading": "Mit unserer Nachhaltigkeitsberatung",
+            "text": "Wir von Evopack bieten für die Reinigungsmittel-industrie Lösungen, die helfen die Produkt-integrität bis zum letzten Tropfen zu gewähr-leisten. Dabei sollen keine oder möglichst wenig gefährliche Rohstoffe eigesetzt werden."
+          },
+          {
+            "component": "LargeCard",
+            "heading": "Mit unserer Nachhaltigkeitsberatung",
+            "text": "Wir von Evopack bieten für die Reinigungsmittel-industrie Lösungen, die helfen die Produkt-integrität bis zum letzten Tropfen zu gewähr-leisten. Dabei sollen keine oder möglichst wenig gefährliche Rohstoffe eigesetzt werden."
+          },
+          {
+            "component": "LargeCard",
+            "heading": "Mit unserer innovativen Verpackungen",
+            "text": "Wir von Evopack bieten für die Reinigungsmittel-industrie Lösungen, die helfen die Produkt-integrität bis zum letzten Tropfen zu gewähr-leisten. Dabei sollen keine oder möglichst wenig gefährliche Rohstoffe eigesetzt werden."
+          }
+        ],
+        "pitch": {
+          "heading": "Ensure full product performance from manufacture to the very last drop on the wall",
+          "subheading": "We support you extensively to"
+        },
+        "relatedServices": [
+          {
+            "component": "LargeCard",
+            "heading": "With our Hygiene Consulting",
+            "text": "Helping protect your reputation and saving cost by ensuring flawless product performance.",
+            "theme": "blue",
+            "icon": "shield",
+            "publish": false
+          },
+          {
+            "component": "LargeCard",
+            "heading": "With our Training Services",
+            "text": "Master the area of industrial hygiene with our tailored training.",
+            "theme": "white",
+            "icon": "team",
+            "publish": false
+          },
+          {
+            "component": "LargeCard",
+            "heading": "With our innovative Packaging solutions",
+            "text": "Protect your product through its lifecycle while conserving cost and resources during transport.",
+            "theme": "green",
+            "icon": "3d",
+            "publish": true
+          }
+        ]
+      },
+      {
+        "sectionHeading": "Adhesives",
+        "subheading": "Adhesives today are real high-performance athletes.",
+        "heroImage": "applicationsImages__adhesives.jpg",
+        "overview": {
+          "component": "TextBox",
+            "heading": "Biocides in paints",
+            "headingFontColour": "#075932",
+            "text": "In der Automobilindustrie ersetzen sie Schraub-verbindungen in sicherheitsrelevanten Teilen, in der Bauindustrie schaffen sie schnelle und preiswerte Lösungen und im medizinischen Bereich können sie sogar zur Wundheilung beitragen.",
+            "icon": "leaf",
+            "iconColour": "--sustain-green"
+        },
+        "sustainability": {
+          "component": "TextBox",
+            "heading": "Sustainability in the adhesives industry",
+            "headingFontColour": "#075932",
+            "text": "The impact of adhesives on the environment and the effects on humans are becoming massively more important. In most cases, adhesives are water-based systems. Such systems are particularly susceptible to germs. To prevent germ growth, additives such as biocides are used. In some areas, biocides can be used indefinitely without hesitation; in others, the legally permitted maximum values are used and it is hoped that the product will be safe throughout its entire life cycle.",
+            "icon": "leaf",
+            "iconColour": "--sustain-green",
+            "backgroundColour": "#FFF7EF"
+        },
+        "solution": {
+          "component": "TextBox",
+          "heading": "It's time to rethink",
+          "text": "At Evopack, we offer solutions for the adhesives industry that help ensure product integrity down to the last drop. This means that none or the least possible amount of toxic substances are used in the production process.",
+          "icon": "leaf",
+          "iconColour": "--sustain-green",
+          "backgroundColour": "#FFF7EF"
+        },
+        "pitch": {
+          "heading": "Ensure full product performance from manufacture to the very last squeeze of the tube.",
+          "subheading": "We support you extensively to"
+        },
+        "relatedServices": [
+          {
+            "component": "LargeCard",
+            "heading": "With our Hygiene Consulting",
+            "text": "Helping protect your reputation and saving cost by ensuring flawless product performance.",
+            "theme": "blue",
+            "icon": "shield",
+            "publish": false
+          },
+          {
+            "component": "LargeCard",
+            "heading": "With our Training Services",
+            "text": "Master the area of industrial hygiene with our tailored training.",
+            "theme": "white",
+            "icon": "team",
+            "publish": false
+          },
+          {
+            "component": "LargeCard",
+            "heading": "With our innovative Packaging solutions",
+            "text": "Protect your product through its lifecycle while conserving cost and resources during transport.",
+            "theme": "green",
+            "icon": "3d",
+            "publish": true
+          }
+        ]
+      },
+      {
+        "sectionHeading": "Binder dispersions",
+        "subheading": "Binder dispersions are the base materials for paints, adhesives, construction chemicals and much more.",
+        "heroImage": "applicationsImages__dispersions.jpg",
+        "overview": {
+          "component": "TextBox",
+            "heading": "Use of Binder dispersions",
+            "headingFontColour": "#075932",
+            "text": "They form the basis of many formulations and are used in high volumes. A clear coat consists of up to 99 %, concrete for high-rise buildings of up to 10 % and adhesives of almost 100 % binder dispersions. In most cases, binder dispersions are further processed in the industry into other products before they reach the end consumer. This demands maximum performance: reliable and long-term.",
+            "icon": "leaf",
+            "iconColour": "--sustain-green"
+        },
+        "sustainability": {
+          "component": "TextBox",
+            "heading": "Sustainability in the binder industry",
+            "headingFontColour": "#075932",
+            "text": "In recent years, more and more precursors and end products have been subject to stringent regulations regarding human safety and ecological impact. This primarily concerns preservatives, such as biocides. In some cases, the EU is enforcing the use of lower quantities or the elimination of biocides by regulatory means. The binder industry is usually the first link in the chain and can strongly influence the quantities of preservatives used. As a binder manufacturer, you should use as few preservatives as possible to allow maximum leeway for your customers.",
+            "icon": "leaf",
+            "iconColour": "--sustain-green",
+            "backgroundColour": "#FFF7EF"
+        },
+        "solution": {
+          "component": "TextBox",
+          "heading": "It's time to rethink",
+          "text": "At Evopack, we offer solutions for the binder industry that help ensure product integrity down to the last drop. This means that none or the least possible amount of toxic substances are used in the production process.",
+          "icon": "leaf",
+          "iconColour": "--sustain-green",
+          "backgroundColour": "#FFF7EF"
+        },
+        "pitch": {
+          "heading": "Ensure full product performance from manufacture to the very last drop",
+          "subheading": "We support you extensively to"
+        },
+        "relatedServices": [
+          {
+            "component": "LargeCard",
+            "heading": "With our Hygiene Consulting",
+            "text": "Helping protect your reputation and saving cost by ensuring flawless product performance.",
+            "theme": "blue",
+            "icon": "shield",
+            "publish": false
+          },
+          {
+            "component": "LargeCard",
+            "heading": "With our sustainability consulting",
+            "text": "Helping you meet your sustainability targets while saving costs and resources.",
+            "theme": "white",
+            "icon": "team",
+            "publish": true
+          },
+          {
+            "component": "LargeCard",
+            "heading": "With our innovative packaging solutions",
+            "text": "Protect your product through its lifecycle while conserving cost and resources during transport.",
+            "theme": "green",
+            "icon": "3d",
+            "publish": true
+          }
+        ]
+      },
+      {
+        "sectionHeading": "Household products",
+        "subheading": "Detergents, household chemicals and other household products are mainly water-based and therefore susceptible to contamination.",
+        "heroImage": "applicationsImages__household.jpg",
+        "overview": {
+          "component": "TextBox",
+            "heading": "Biocides in household products",
+            "headingFontColour": "#075932",
+            "text": "In the past, effective biocides such as MIT or CMIT were used to keep detergents and cleaning agents contamination-free until they reached the end consumer. The products were thus safe until they were completely consumed.",
+            "icon": "leaf",
+            "iconColour": "--sustain-green"
+        },
+        "sustainability": {
+          "component": "TextBox",
+            "heading": "Sustainability in the detergent industry",
+            "headingFontColour": "#075932",
+            "text": "The new requirements for preservation in terms of consumer safety and environmental friendliness leave little room for reliable preservation. Particularly when it is not possible to control the application of the final product. New ways must be found to keep products safe down to the last drop, despite the increased regulatory requirements.",
+            "icon": "leaf",
+            "iconColour": "--sustain-green",
+            "backgroundColour": "#FFF7EF"
+        },
+        "solution": {
+          "component": "TextBox",
+          "heading": "It's time to rethink",
+          "text": "At Evopack, we offer solutions for the detergent industry that help ensure product integrity down to the last drop. This means that none or the least possible amount of toxic substances are used in the production process.",
+          "icon": "leaf",
+          "iconColour": "--sustain-green",
+          "backgroundColour": "#FFF7EF"
+        },
+        "pitch": {
+          "heading": "Ensure full product performance from manufacture to the very last drop of detergent",
+          "subheading": "We support you extensively to"
+        },
+        "relatedServices": [
+          {
+            "component": "LargeCard",
+            "heading": "With our Hygiene Consulting",
+            "text": "Helping protect your reputation and saving cost by ensuring flawless product performance.",
+            "theme": "blue",
+            "icon": "shield",
+            "publish": false
+          },
+          {
+            "component": "LargeCard",
+            "heading": "With our innovative Packaging solutions",
+            "text": "Protect your product through its lifecycle while conserving cost and resources during transport.",
+            "theme": "green",
+            "icon": "3d",
+            "publish": true
+          }
+        ]
+      }
+    ],
+    "heroSection": {
+      "title": "Next Generation Packaging",
+      "subTitle": "Sustainable solutions for enhanced product integrity",
+      "CTA": "Contact Us",
+      "navigationLinks": [{"label": "Applications", "urlPath": "/applications"}, {"label": "Careers", "urlPath": "/careers"}, {"label": "About Us", "urlPath": "/about"}],
+      "productAreas": ["Paints and Coatings", "Adhesives", "Polymer Dispersions", "Home Products"]
+    },
+    "servicesSection": {
+      "title": "What we do for you",
+      "services": [
+        {
+          "title": "Packaging Design",
+          "text": "Our packaging solutions improve safety, compliance and sustainability over the entire product life cycle.",
+          "icon": "packaging--medium-blue",
+          "theme": "blue"
+        },
+        {
+          "title": "Sustainablility Consulting",
+          "text": "Save money and the planet by reducing the need for biocides in your products.",
+          "icon": "question",
+          "theme": "green"
+        },
+        {
+          "title": "Hygiene Control",
+          "text": "Protect your product’s quality and compliance with minimal effort and chemicals.",
+          "icon": "lock",
+          "theme": "white"
+        }
+      ]
+    },
+    "quoteSection": {
+      "quote": "At Evopack, we have made it our mission to identify and optimise outdated packaging concepts. We believe in an evolution of packaging towards more sustainable and less impactful packaging. Our mission is to drive this evolution. We develop packaging for a better future.",
+      "author": "Test Person",
+      "authorPosition": "Head of Engineering"
+    },
+    "valuesSection": {
+      "title": "Sustainablility throughout",
+      "subTitle": "Only by living a sustainable philosophy can you develop sustainable products.",
+      "values": [
+        {
+          "title": "Reduction of transport emissions",
+          "text": "Our packaging solutions improve safety, compliance and sustainability over the entire product life cycle.",
+          "buttonText": "Learn More",
+          "icon": "emissions",
+          "theme": "white",
+          "buttonTheme": "blue"
+        },
+        {
+          "title": "Developing resource efficient packaging solutions",
+          "text": "Save money and the planet by reducing the need for biocides in your products.",
+          "buttonText": "Learn More",
+          "icon": "trees",
+          "theme": "blue",
+          "buttonTheme": "white"
+        },
+        {
+          "title": "Reduce the use of harmful additives",
+          "text": "Protect your product’s quality and compliance with minimal effort and chemicals.",
+          "buttonText": "Learn More",
+          "icon": "chemistry",
+          "theme": "white",
+          "buttonTheme": "blue"
+        }
+      ]
+    },
+    "contactSection": {
+      "title": "Drop us a line",
+      "firstNamePlaceholder": "First Name",
+      "lastNamePlaceholder": "Last Name",
+      "emailPlaceholder": "Email",
+      "phonePlaceholder": "Phone",
+      "messagePlaceholder": "Message",
+      "GDPRCheckboxText": "Tick this box to sign up for marketing - you can unsubscribe at any time.",
+      "buttonText": "Send Message"
+    },
+    "footer": {
+      "subscriptionLabel": "Be the first to know",
+      "subscriptionPlaceholder": "Enter your email",
+      "imprintLinkLabel": "Imprint",
+      "dataPolicyLinkLabel": "Data Policy"
+    }
+
+  },
+  "german": {
+    "applicationAreas": [
+      {
+        "sectionHeading": "Farben und Beschichtungen",
+        "subheading": "Wir von Evopack verstehen Farbe.",
+        "heroImage": "applicationsImages__paints.jpg",
+        "overview": {
+          "component": "TextBox",
+            "heading": "Funktionen von Farben",
+            "headingFontColour": "#075932",
+            "text": "Im 21. Jahrhundert erfüllen Beschichtungen neben der reinen Farbgebung hauptsächlich funktionale Eigenschaften für Produkte. Beschichtungen schützen Computer Chips vor Kurzschlüssen, sorgen für Hygiene auf Oberflächen im Medizin-Bereich oder erhöhen die Lebensdauer von Objekten durch Korrosionsschutz.",
+            "icon": "leaf",
+            "iconColour": "--sustain-green"
+        },
+        "sustainability": {
+          "component": "TextBox",
+            "heading": "Nachhaltigkeit in der Farbindustrie",
+            "headingFontColour": "#075932",
+            "text": "Die Nachhaltigkeitsbewegung fordert auch in der Farbbranche viele neue Auflagen, speziell im Bereich von Innenwanddispersionsfarben und Farben für Kinderspielzeug. Richtlinien und gesetzliche Vorschriften limitieren oder eliminieren zunehmend Rohstoffe. Dies betrifft so genannte VOC-Gehälter (Organische Lösemittel), Konservierungsmittel und Stoffe wie z. B. Isocyanate, die zur Härtung von manchen Farben verwendet werden.",
+            "icon": "leaf",
+            "iconColour": "--sustain-green",
+            "backgroundColour": "#FFF7EF"
+        },
+        "solution": {
+          "component": "TextBox",
+          "heading": "Es ist Zeit umzudenken",
+          "text": "Wir von Evopack bieten für die Farb- und Lackbranche Lösungen, die helfen die Produktintegrität bis zum letzten Tropfen zu gewährleisten. Dabei sollen keine oder möglichst wenig gefährliche Rohstoffe eigesetzt werden.",
+          "icon": "leaf",
+          "iconColour": "--sustain-green",
+          "backgroundColour": "#FFF7EF"
+        }, 
+        "pitch": {
+          "heading": "Sicherstellung Ihrer Produktintegrität vom Rohstoff, bis zum letzten Topfen an der Wand",
+          "subheading": "Wir unterstützen Sie vollumfänglich bei der"
+        },
+        "relatedServices": [
+          {
+            "component": "LargeCard",
+            "heading": "Mit unserer Hygiene Beratung",
+            "text": "Garantieren Sie optimalen Produktschutz um das Ansehen Ihrer Marke zu schützen sowie Kosten zu sparen.",
+            "theme": "blue",
+            "icon": "shield",
+            "publish": false
+          },
+          {
+            "component": "LargeCard",
+            "heading": "Mit unserem Schulungsangebot zum Thema Betriebshygiene",
+            "text": "Meistern Sie Ihre Betriebshygiene durch unser angepasstes Schulungsagebot.",
+            "theme": "white",
+            "icon": "team",
+            "publish": false
+          },
+          {
+            "component": "LargeCard",
+            "heading": "Mit unseren innovativen Verpackungslösungen",
+            "text": "Schüzten wir ihr Produkt über den gesamten Produktverlauf während Sie gleichzeitig Kosten und Resourcen sparen.",
+            "theme": "green",
+            "icon": "3d",
+            "publish": true
+          }
+        ]
+      },
+      {
+        "sectionHeading": "Klebstoffe",
+        "subheading": "Klebstoffe sind heutzutage richtige Hochleistungssportler.",
+        "heroImage": "applicationsImages__adhesives.jpg",
+        "overview": {
+          "component": "TextBox",
+            "heading": "Einsatz von Klebstoffen",
+            "headingFontColour": "#075932",
+            "text": "In der Automobilindustrie ersetzen sie Schraub-verbindungen in sicherheitsrelevanten Teilen, in der Bauindustrie schaffen sie schnelle und preiswerte Lösungen und im medizinischen Bereich können sie sogar zur Wundheilung beitragen.",
+            "icon": "leaf",
+            "iconColour": "--sustain-green"
+        },
+        "sustainability": {
+          "component": "TextBox",
+            "heading": "Nachhaltigkeit in der Klebstoffindustrie",
+            "headingFontColour": "#075932",
+            "text": "Die Einflüsse von Klebstoffen auf die Umwelt und die Auswirkungen auf den Menschen gewinnen massiv an Bedeutung. In den meisten Fällen handelt es sich bei Klebstoffen um wasserbasierte Systeme. Diese sind besonders anfällig für Keime. Um Keimwachstum zu verhindern werden Zusatzstoffe wie z. B. Biozide eingesetzt. In einigen Bereichen können Biozide unbegrenzt ohne Bedenken eingesetzt werden, in anderen verwendet man die rechtmäßig zugelassenen Maximalwerte und erhofft sich eine Sicherstellung des Produktes über den gesamten Produktlebenszyklus.",
+            "icon": "leaf",
+            "iconColour": "--sustain-green",
+            "backgroundColour": "#FFF7EF"
+        },
+        "solution": {
+          "component": "TextBox",
+          "heading": "Es ist Zeit umzudenken",
+          "text": "Wir von Evopack bieten für die Klebstoffbranche Lösungen, die helfen die Produktintegrität bis zum letzten Tropfen zu gewährleisten. Dabei sollen keine oder möglichst wenig gefährliche Rohstoffe eigesetzt werden.",
+          "icon": "leaf",
+          "iconColour": "--sustain-green",
+          "backgroundColour": "#FFF7EF"
+        }, 
+        "pitch": {
+          "heading": "Sicherstellung Ihrer Produktintegrität vom Rohstoff, bis zum letzten Tropfen Klebstoff in der Tube",
+          "subheading": "Wir unterstützen Sie vollumfänglich bei der"
+        },
+        "relatedServices": [
+          {
+            "component": "LargeCard",
+            "heading": "Mit unserer Hygiene Beratung",
+            "text": "Garantieren Sie optimalen Produktschutz um das Ansehen Ihrer Marke zu schützen sowie Kosten zu sparen.",
+            "theme": "blue",
+            "icon": "shield",
+            "publish": false
+          },
+          {
+            "component": "LargeCard",
+            "heading": "Mit unserem Schulungsangebot zum Thema Betriebshygiene",
+            "text": "Meistern Sie Ihre Betriebshygiene durch unser angepasstes Schulungsagebot.",
+            "theme": "white",
+            "icon": "team",
+            "publish": false
+          },
+          {
+            "component": "LargeCard",
+            "heading": "Mit unserer innovativen Verpackungslösung",
+            "text": "Schüzten wir ihr Produkt über den gesamten Produktverlauf während Sie gleichzeitig Kosten und Resourcen sparen.",
+            "theme": "green",
+            "icon": "3d",
+            "publish": true
+          }
+        ]
+      },
+      {
+        "sectionHeading": "Bindemitteldispersionen",
+        "subheading": "Bindemitteldispersionen sind die Ausgangsstoffe für Farben, Klebstoffe, Bauchemikalien und vieles mehr.",
+        "heroImage": "applicationsImages__dispersions.jpg",
+        "overview": {
+          "component": "TextBox",
+            "heading": "Einsatz von Bindemittel- dispersionen",
+            "headingFontColour": "#075932",
+            "text": "Sie stellen die Basis vieler Formulierungen dar und werden in großen Mengen eingesetzt. Ein Klarlack besteht aus bis zu 99 %, Beton für Hochhäuser aus bis zu 10 % und Klebstoffe aus beihnahe 100 % Bindemitteldispersion. In den meisten Fällen werden Bindemitteldispersionen in der Industrie zu anderen Produkten weiter-verarbeitet, bevor sie an den Endkonsumenten gelangen. Dies erfordert maximale Performance: zuverlässig und langfristig.",
+            "icon": "leaf",
+            "iconColour": "--sustain-green"
+        },
+        "sustainability": {
+          "component": "TextBox",
+            "heading": "Nachhaltigkeit in der Bindemittelindustrie",
+            "headingFontColour": "#075932",
+            "text": "Seit den letzten Jahren unterliegen immer mehr Zwischen- und Endprodukte starken Regulierungen bezüglich der Sicherheit für den Menschen und der Umweltverträglichkeit. Dies betrifft in erster Linie Konservierungsmittel, wie Biozide. Von der EU werden teilweise geringere Mengen oder der Verzicht an Bioziden regulatorisch erzwungen.Die Bindemittelindustrie ist in der Regel das erste Glied in der Kette und kann die eingesetzten Mengen an Konservierungsmittel stark beeinflussen. Als Bindemittelhersteller sollten Sie möglichst wenig Konservierungsmittel einsetzen, um maximalen Spielraum für Ihre Kunden zu ermöglichen.",
+            "icon": "leaf",
+            "iconColour": "--sustain-green",
+            "backgroundColour": "#FFF7EF"
+        },
+        "solution": {
+          "component": "TextBox",
+          "heading": "Es ist Zeit umzudenken",
+          "text": "Wir von Evopack bieten für die Bindemittel-industrie Lösungen, die helfen die Produkt-integrität bis zum letzten Tropfen zu gewähr-leisten. Dabei sollen keine oder möglichst wenig gefährliche Rohstoffe eigesetzt werden.",
+          "icon": "leaf",
+          "iconColour": "--sustain-green",
+          "backgroundColour": "#FFF7EF"
+        }, 
+        "pitch": {
+          "heading": "Sicherstellung Ihrer Produktintegrität vom Rohstoff, bis zur Anwendung des letzten Tropfens.",
+          "subheading": "Wir unterstützen Sie vollumfänglich bei der"
+        },
+        "relatedServices": [
+          {
+            "component": "LargeCard",
+            "heading": "Mit unserer Hygiene Beratung",
+            "text": "Garantieren Sie optimalen Produktschutz um das Ansehen Ihrer Marke zu schützen sowie Kosten zu sparen.",
+            "theme": "blue",
+            "icon": "shield",
+            "publish": false
+          },
+          {
+            "component": "LargeCard",
+            "heading": "Mit unserer Nachhaltigkeitsberatung",
+            "text": "Erreichen Sie Ihre Nachheiltigkeitsziele während Sie gleichzeitig Kosten und Resourcen sparen.",
+            "theme": "white",
+            "icon": "team",
+            "publish": true
+          },
+          {
+            "component": "LargeCard",
+            "heading": "Mit unserer innovativen Verpackungslösung",
+            "text": "Schüzten wir ihr Produkt über den gesamten Produktverlauf während Sie gleichzeitig Kosten und Resourcen sparen.",
+            "theme": "green",
+            "icon": "3d",
+            "publish": true
+          }
+        ]
+      },
+      {
+        "sectionHeading": "Haushaltsprodukte",
+        "subheading": "Wasch- und Reinigungsmittel, Haushalts-chemikalien und weitere Haushaltsprodukte basieren hauptsächlich auf Wasser und sind daher anfällig für Verkeimungen.",
+        "heroImage": "applicationsImages__household.jpg",
+        "overview": {
+          "component": "TextBox",
+            "heading": "Biozide in Haushalts-produkten",
+            "headingFontColour": "#075932",
+            "text": "In der Vergangenheit wurden effektive Biozide wie MIT oder CMIT eingesetzt, um Wasch- und Reinigungsmittel bis zum Endkonsumenten kontaminationsfrei zu halten. Die Produkte waren damit bis zum vollständigen Verbrauch sicher.",
+            "icon": "leaf",
+            "iconColour": "--sustain-green"
+        },
+        "sustainability": {
+          "component": "TextBox",
+            "heading": "Nachhaltigkeit in der Reinigungsmittel-industrie",
+            "headingFontColour": "#075932",
+            "text": "Die neuen Anforderungen an die Konservierung bezüglich der Verbrauchersicherheit und der Umweltfreundlichkeit lassen wenig Spielraum für eine zuverlässige Konservierung. Vor allem dann, wenn man die Anwendung des Endproduktes nicht kontrollieren kann. Es müssen neue Wege gefunden werden, wie trotz der gestiegenen Anforderungen, Produkte bis zum letzten Tropfen sicher bleiben.",
+            "icon": "leaf",
+            "iconColour": "--sustain-green",
+            "backgroundColour": "#FFF7EF"
+        },
+        "solution": {
+          "component": "TextBox",
+          "heading": "Es ist Zeit umzudenken",
+          "text": "Wir von Evopack bieten für die Reinigungsmittel-industrie Lösungen, die helfen die Produkt-integrität bis zum letzten Tropfen zu gewähr-leisten. Dabei sollen keine oder möglichst wenig gefährliche Rohstoffe eigesetzt werden.",
+          "icon": "leaf",
+          "iconColour": "--sustain-green",
+          "backgroundColour": "#FFF7EF"
+        }, 
+        "pitch": {
+          "heading": "Sicherstellung Ihrer Produktintegrität vom Rohstoff, bis zum letzten Tropfen Reinigungsmittel.",
+          "subheading": "Wir unterstützen Sie vollumfänglich bei der"
+        },
+        "relatedServices": [
+          {
+            "component": "LargeCard",
+            "heading": "Mit unserer Hygiene Beratung",
+            "text": "Garantieren Sie optimalen Produktschutz um das Ansehen Ihrer Marke zu schützen sowie Kosten zu sparen.",
+            "theme": "blue",
+            "icon": "shield",
+            "publish": false
+          },
+          {
+            "component": "LargeCard",
+            "heading": "Mit unserer innovativen Verpackungslösung",
+            "text": "Schüzten wir ihr Produkt über den gesamten Produktverlauf während Sie gleichzeitig Kosten und Resourcen sparen.",
+            "theme": "green",
+            "icon": "3d",
+            "publish": true
+          }
+        ]
+      }
+    ],
+    "heroSection": {
+      "title": "Optimale Produktleistung. Jedes Mal.",
+      "subTitle": "Reduzieren Sie Ihre Kosten und Einfluss aufs Klima mit effizienten Verpackungslösungen.",
+      "CTA": "Kontakt",
+      "navigationLinks": [{"label": "Applications", "urlPath": "/applications"}, {"label": "Jobs & Karriere", "urlPath": "/careers"}, {"label": "Über EVOPACK", "urlPath": "/about"}],
+      "productAreas": ["Farben und Beschichtungen", "Klebstoffe", "Polymer-Dispersionen", "Haushaltspflege"]
+    },
+    "servicesSection": {
+      "title": "Was wir für Sie tun",
+      "services": [
+      {
+        "title": "Verpackungslösungen",
+        "text": "Our packaging solutions improve safety, compliance and sustainability over the entire product life cycle.",
+        "icon": "packaging--medium-blue",
+        "theme": "blue"
+      },
+      {
+        "title": "Nachhaltigkeits Beratung",
+        "text": "Save money and the planet by reducing the need for biocides in your products.",
+        "icon": "question",
+        "theme": "green"
+      },
+      {
+        "title": "Hygiene Konzept",
+        "text": "Protect your product’s quality and compliance with minimal effort and chemicals.",
+        "icon": "lock",
+        "theme": "white"
+      }
+      ]
+    },
+    "quoteSection": {
+      "quote": "Hier bei Evopack, we have made it our mission to identify and optimise outdated packaging concepts. We believe in an evolution of packaging towards more sustainable and less impactful packaging. Our mission is to drive this evolution. We develop packaging for a better future.",
+      "author": "Eine Person",
+      "authorPosition": "Head of Engineering"
+    },
+    "valuesSection": {
+      "title": "Nachhaltigkeit immer",
+      "subTitle": "Only by living a sustainable philosophy can you develop sustainable products.",
+      "values": [
+        {
+          "title": "Reduction of transport emissions",
+          "text": "Our packaging solutions improve safety, compliance and sustainability over the entire product life cycle.",
+          "buttonText": "Learn More",
+          "icon": "emissions",
+          "theme": "white",
+          "buttonTheme": "blue"
+        },
+        {
+          "title": "Developing resource efficient packaging solutions",
+          "text": "Save money and the planet by reducing the need for biocides in your products.",
+          "buttonText": "Learn More",
+          "icon": "trees",
+          "theme": "blue",
+          "buttonTheme": "white"
+        },
+        {
+          "title": "Reduce the use of harmful additives",
+          "text": "Protect your product’s quality and compliance with minimal effort and chemicals.",
+          "buttonText": "Learn More",
+          "icon": "chemistry",
+          "theme": "white",
+          "buttonTheme": "blue"
+        }
+      ]
+    },
+    "contactSection": {
+      "title": "Kontaktieren Sie uns",
+      "firstNamePlaceholder": "First Name",
+      "lastNamePlaceholder": "Last Name",
+      "emailPlaceholder": "Email",
+      "phonePlaceholder": "Phone",
+      "messagePlaceholder": "Message",
+      "GDPRCheckboxText": "Tick this box to sign up for marketing - you can unsubscribe at any time.",
+      "buttonText": "Send Message"
+    },
+    "footer": {
+      "subscriptionLabel": "Erfahren Sie alles zuerst",
+      "subscriptionPlaceholder": "Enter your email",
+      "imprintLinkLabel": "Imprint",
+      "dataPolicyLinkLabel": "Datenschutz"
+    }
+
+  },
+  "french":{
+
+  }
+}

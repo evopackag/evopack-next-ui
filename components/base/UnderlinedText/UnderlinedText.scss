@@ -1,0 +1,7 @@
+@media screen and (max-width: 992px) {
+  .underlinedText {
+    position: relative;
+    text-decoration: solid 3px var(--primary-green);
+    text-decoration-line: underline;
+  }
+}

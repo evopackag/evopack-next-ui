@@ -1,0 +1,13 @@
+.bullets {
+  padding-top: 2rem;
+}
+
+.bullets:last-of-type {
+  padding-bottom: 4rem;
+}
+
+.bullet {
+  font-size: 1.25rem;
+  color: var(--primary-blue);
+  margin-left: 2rem;
+}

@@ -1,0 +1,65 @@
+.verticalSpacing {
+  &--xxxxs {
+    height: 0.25rem;
+  }
+  &--xxxs {
+    height: 0.5rem;
+  }
+  &--xxs {
+    height: 0.75rem;
+  }
+  &--xs {
+    height: 1rem;
+  }
+  &--sm {
+    height: 1.25rem;
+  }
+  &--md {
+    height: 1.5rem;
+  }
+  &--lg {
+    height: 2rem;
+  }
+  &--xl {
+    height: 2.5rem;
+  }
+  &--xxl {
+    height: 3rem;
+  }
+  &--xxxl {
+    height: 4rem;
+  }
+  &--xxxxl {
+    height: 6rem;
+  }
+}
+
+// .spacing--xxs {
+//   height: 0.25rem;
+// }
+
+// .spacing--xs {
+//   height: 1rem;
+// }
+
+// .spacing--sm {
+//   height: 2rem;
+// }
+
+// .spacing--md {
+//   height: 4rem;
+// }
+
+// .spacing--lg {
+//   height: 8rem;
+// }
+
+// .spacing--xl {
+//   height: 16rem;
+// }
+
+@media screen and (max-width: 1024px) {
+  .spacing--lg {
+    height: 4rem;
+  }
+}

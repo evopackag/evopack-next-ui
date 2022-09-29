@@ -1,0 +1,13 @@
+.box {
+  max-width: 1400px;
+  min-width: 300px;
+  flex-basis: 0;
+  flex-grow: 3;
+  width: 100%;
+}
+
+@media screen and (max-width: 450px) {
+  .box + .box {
+    margin-left: 0;
+  }
+}

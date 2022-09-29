@@ -1,0 +1,14 @@
+.imageTile {
+  height: 95vh;
+  width: 100%;
+  max-width: 700px;
+  background-size: cover;
+  text-decoration: none;
+  color: inherit;
+  margin-right: 2rem;
+  cursor:default;
+
+  &:last-of-type {
+    margin-right: 0;
+  }
+}

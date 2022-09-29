@@ -1,0 +1,51 @@
+.tabs {
+  overflow: scroll;
+  left: 0;
+      right: 0;
+      bottom: -1.25rem;
+      position: absolute;
+      
+  // padding: 0 1rem 0 0;
+
+  &::-webkit-scrollbar,
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  &::-webkit-scrollbar,
+  &::-webkit-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none;
+  }
+
+  &__container {
+    justify-content: center;
+    // width: 100%;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+    background: #fff;
+    padding: 0.5rem;
+    border-radius: 100rem;
+    // margin: 0 1rem;
+
+    & > * {
+      margin-right: 1rem;
+    }
+
+    & div:last-of-type {
+      margin-right: 0;
+    }
+    // & > *:last-child {
+    //   margin-right: 1;
+    // }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .tabs {
+    &__container {
+      justify-content: flex-start;
+      border-radius: 0;
+    }
+  }
+}

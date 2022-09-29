@@ -1,0 +1,25 @@
+.cardsGrid {
+  min-height: 90vh;
+  justify-content: flex-start;
+  padding: 0 1rem;
+  overflow-x: scroll;
+
+  & div {
+    margin-right: 1rem;
+  }
+
+  &__container {
+    background-color: var(--off-white);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .cardsGrid {
+    min-height: 90vh;
+    justify-content: center;
+  
+    &__container {
+      background-color: var(--off-white);
+    }
+  }
+}
