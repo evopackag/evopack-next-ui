@@ -67,9 +67,7 @@ const ContactForm = forwardRef((data?: any, ref?: any) => {
       });
       // router.push("/thankyou");
       setSent(true);
-    } catch (error) {
-      console.log(error);
-    }
+    } catch (error) {}
   }
 
   return (
