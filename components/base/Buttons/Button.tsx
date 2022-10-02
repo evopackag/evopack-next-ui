@@ -16,6 +16,7 @@ interface IProps {
   handleClick?: any;
   isLinkStyle?: boolean;
   children?: any;
+  formFunction?: "button" | "submit" | "reset" | undefined;
 }
 const Button = ({
   label,
@@ -24,6 +25,7 @@ const Button = ({
   icon,
   handleClick,
   isLinkStyle,
+  formFunction,
 }: IProps) => {
   if (isLinkStyle) {
     return (
@@ -37,6 +39,7 @@ const Button = ({
     <button
       className={`${styles[type]} ${styles.button}`}
       onClick={handleClick}
+      type={formFunction ? formFunction : "button"}
     >
       {icon ? <Icon size="sm" icon={icon} colour={IconColours.white} /> : null}
       {label ? label : children}

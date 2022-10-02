@@ -20,6 +20,7 @@ import TextInput from "../base/TextInput/TextInput";
 import styles from "./ContactForm.module.css";
 import GlobalContext from "../../contexts/GlobalContext";
 import { globalContactFormContent } from "../../constants/globalConstants";
+import TextArea from "../base/TextArea/TextArea";
 
 // interface IProps {
 //   data: any;
@@ -119,10 +120,11 @@ const ContactForm = forwardRef((data?: any, ref?: any) => {
                 name="ContactForm"
                 id="ContactForm"
                 ref={ref}
-                data-netlify={true}
+                data-netlify="true"
                 onSubmit={handleSubmit}
               >
-                <div className={`${styles.contactForm__inputs} row`}>
+                <input type="hidden" name="form-name" value="ContactForm" />
+                <div className={`${styles.xcontactForm__inputs} row`}>
                   {" "}
                   <div
                     className={`${styles.contactForm__details} col-xs-12 col-md-4 margin-right-2`}
@@ -165,7 +167,14 @@ const ContactForm = forwardRef((data?: any, ref?: any) => {
                   <div
                     className={`${styles.contactForm__message} col-xs-12 col-md-8`}
                   >
-                    <TextInput
+                    <TextArea
+                      label="Message"
+                      fieldID="message"
+                      handleChange={(e: React.FormEvent<HTMLTextAreaElement>) =>
+                        setMessage({ message: e.currentTarget.value })
+                      }
+                    />
+                    {/* <TextInput
                       label={messagePlaceholder}
                       type="textarea"
                       handleChange={(e: React.FormEvent<HTMLTextAreaElement>) =>
@@ -173,7 +182,7 @@ const ContactForm = forwardRef((data?: any, ref?: any) => {
                       }
                       fieldID="message"
                       required
-                    />
+                    /> */}
                   </div>
                 </div>
 
@@ -184,6 +193,7 @@ const ContactForm = forwardRef((data?: any, ref?: any) => {
                   <Button
                     label={buttonText}
                     type={ButtonTypes.secondaryWhite}
+                    formFunction="submit"
                   />
                 </div>
               </form>
