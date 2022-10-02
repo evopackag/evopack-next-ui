@@ -108,7 +108,7 @@ const TextInput = ({
   }
 
   return (
-    <div className={`${styles.textInput} col-xs-12 col-sm-12 col-md-11`}>
+    <label className={`${styles.textInput} col-xs-12 col-sm-12 col-md-11`}>
       <input
         // textInput__field--${theme}
         className={`${styles.textInput__field} col-xs-12 width-100`}
@@ -129,7 +129,7 @@ const TextInput = ({
           src={`/icons/${contextualIcon}.svg`}
         />
       ) : null}
-    </div>
+    </label>
   );
 };
 
