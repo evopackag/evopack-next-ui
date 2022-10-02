@@ -26,9 +26,9 @@ const About = (props: any) => {
 
   const { heading, subheading } = props[language].about;
   //Handle the error state
-  if (error) return <div>Failed to load</div>;
+  // if (error) return <div>Failed to load</div>;
   //Handle the loading state
-  if (!data) return <div>Loading...</div>;
+  if (!props) return <div>Failed to load data..</div>;
   return (
     <PageContainer>
       <Header />

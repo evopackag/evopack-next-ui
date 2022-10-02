@@ -32,7 +32,7 @@ const Careers = (props: any) => {
     props[language].careers;
 
   //Handle the error state
-  // if (error) return <div>Failed to load</div>;
+  if (!props) return <div>Failed to load data..</div>;
   //Handle the loading state
   // if (!data) return <div>Loading...</div>;
   return (
