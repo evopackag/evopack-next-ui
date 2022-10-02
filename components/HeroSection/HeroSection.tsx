@@ -3,20 +3,12 @@ import Heading, {
   HeadingSizes,
   HeadingWeights,
   textAlignments,
-} from "../../../../components/base/Heading/Heading";
-import Text, {
-  TextColour,
-  TextSize,
-  TextWeight,
-} from "../../../../components/base/Text/Text";
+} from "../base/Heading/Heading";
+import Text, { TextColour, TextSize, TextWeight } from "../base/Text/Text";
 
-import Button, {
-  ButtonTypes,
-} from "../../../../components/base/Buttons/Button";
-import useViewportSize from "../../../../hooks/useViewportSize/useViewportSize";
-import VerticalSpacing, {
-  SpacingSizes,
-} from "../../../../components/base/Spacing/VerticalSpacing";
+import Button, { ButtonTypes } from "../base/Buttons/Button";
+import useViewportSize from "../../hooks/useViewportSize/useViewportSize";
+import VerticalSpacing, { SpacingSizes } from "../base/Spacing/VerticalSpacing";
 
 import styles from "./HeroSection.module.css";
 

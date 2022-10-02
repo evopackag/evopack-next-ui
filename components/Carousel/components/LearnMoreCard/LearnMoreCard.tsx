@@ -1,17 +1,15 @@
 import { useState } from "react";
-import Button, {
-  ButtonTypes,
-} from "../../../../../../components/base/Buttons/Button";
+import Button, { ButtonTypes } from "../../../base/Buttons/Button";
 import Heading, {
   HeadingColour,
   HeadingSizes,
   HeadingWeights,
-} from "../../../../../../components/base/Heading/Heading";
+} from "../../../base/Heading/Heading";
 import Text, {
   TextColour,
   TextSize,
   TextWeight,
-} from "../../../../../../components/base/Text/Text";
+} from "../../../base/Text/Text";
 import styles from "./LearnMoreCard.module.css";
 
 interface IProps {

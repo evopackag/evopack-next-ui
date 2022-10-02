@@ -35,8 +35,6 @@ const Header = ({ refs }: IProps) => {
 
   const router = useRouter();
 
-  console.log(router.asPath);
-
   const globalRoutes: any = {
     english: [
       { label: "Applications", urlPath: "/applications" },
@@ -187,7 +185,7 @@ const Header = ({ refs }: IProps) => {
                         key={link.label}
                       >
                         <Link
-                          href={`${link.urlPath}`}
+                          href={link.urlPath}
                           // className={({ isActive }) =>
                           //   isActive
                           //     ? "link row between-xs link--active"
@@ -276,27 +274,23 @@ const Header = ({ refs }: IProps) => {
           <nav className={`${styles.header__links}`}>
             {globalRoutes[language].map((link: any) => {
               return (
-                <>
-                  <Link
-                    href={`${link.urlPath}`}
-                    className={`${styles.link} ${
-                      router.asPath === link.urlPath
-                        ? styles["link--active"]
-                        : ""
-                    }`}
-                    key={link.label}
-                  >
-                    <a className={styles.link}>
-                      <Text
-                        color={TextColour.primaryBlue}
-                        size={TextSize.md}
-                        weight={TextWeight.medium}
-                      >
-                        {link.label}
-                      </Text>
-                    </a>
-                  </Link>
-                </>
+                <Link
+                  href={`${link.urlPath}`}
+                  className={`${styles.link} ${
+                    router.asPath === link.urlPath ? styles["link--active"] : ""
+                  }`}
+                  key={link.label}
+                >
+                  <a className={styles.link}>
+                    <Text
+                      color={TextColour.primaryBlue}
+                      size={TextSize.md}
+                      weight={TextWeight.medium}
+                    >
+                      {link.label}
+                    </Text>
+                  </a>
+                </Link>
               );
             })}
           </nav>

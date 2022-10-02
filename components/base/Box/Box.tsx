@@ -65,7 +65,6 @@ interface IProps {
   borderColour?: BorderColour;
   background?: BoxBackground | string;
   elevation?: string;
-  key: string;
 }
 
 const Box = ({
@@ -75,7 +74,6 @@ const Box = ({
   borderColour,
   background,
   elevation,
-  key,
 }: IProps) => {
   return (
     <div
@@ -85,7 +83,6 @@ const Box = ({
         borderRadius: `${borderRadius}`,
         backgroundColor: `${background}`,
       }}
-      key={key}
     >
       {children}
     </div>

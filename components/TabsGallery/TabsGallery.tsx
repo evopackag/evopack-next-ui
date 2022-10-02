@@ -30,7 +30,7 @@ const TabsGallery = ({
 
   useEffect(() => {
     setFilter(data[0]);
-  }, [language]);
+  }, [language, data]);
 
   if (showBackgroundImage) {
     return (

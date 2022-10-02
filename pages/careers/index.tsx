@@ -15,16 +15,26 @@ import Link, { ButtonLevel } from "../../components/base/Link/Link";
 import Footer from "../../components/Footer/Footer";
 import Icon from "../../components/base/Icon/Icon";
 import HorizontalDivider from "../../components/base/HorizontalDivider/HorizontalDivider";
+import useSWR from "swr";
 
-const Careers = () => {
-  const websiteContent: any = require("../EvopackContent.json");
+import { wData } from "../../data";
+
+const fetcher = (url: any) => fetch(url).then((res) => res.json());
+
+const Careers = (props: any) => {
+  // const { data, error } = useSWR("/api/staticdata", fetcher);
 
   const { language } = useContext(GlobalContext);
 
   const numberOfJobs = [];
 
   const { heading, subheading, primaryButtonText, secondaryButtonText } =
-    websiteContent[language].careers;
+    props[language].careers;
+
+  //Handle the error state
+  // if (error) return <div>Failed to load</div>;
+  //Handle the loading state
+  // if (!data) return <div>Loading...</div>;
   return (
     <PageContainer>
       <Header />
@@ -103,6 +113,12 @@ const Careers = () => {
       <Footer />
     </PageContainer>
   );
+};
+
+export const getStaticProps = async () => {
+  return {
+    props: wData,
+  };
 };
 
 export default Careers;

@@ -2,13 +2,11 @@ import Heading, {
   HeadingColour,
   HeadingSizes,
   HeadingWeights,
-} from "../../../../components/base/Heading/Heading";
-import HorizontalSlider from "../../../../components/HorizontalSlider/HorizontalSlider";
-import Card from "../../../../components/HorizontalSlider/components/Card/Card";
-import VerticalSpacing, {
-  SpacingSizes,
-} from "../../../../components/base/Spacing/VerticalSpacing";
-import useViewportSize from "../../../../hooks/useViewportSize/useViewportSize";
+} from "../base/Heading/Heading";
+import HorizontalSlider from "../HorizontalSlider/HorizontalSlider";
+import Card from "../HorizontalSlider/components/Card/Card";
+import VerticalSpacing, { SpacingSizes } from "../base/Spacing/VerticalSpacing";
+import useViewportSize from "../../hooks/useViewportSize/useViewportSize";
 
 import styles from "./CardsGrid.module.css";
 

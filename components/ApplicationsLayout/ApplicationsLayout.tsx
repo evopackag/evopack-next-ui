@@ -1,31 +1,17 @@
-import Box, {
-  BorderRadii,
-  BoxBackground,
-  ColourThemes,
-} from "../../../components/base/Box/Box";
+import Box, { BorderRadii, BoxBackground, ColourThemes } from "../base/Box/Box";
 import Heading, {
   HeadingColour,
   HeadingSizes,
   HeadingWeights,
   textAlignments,
-} from "../../../components/base/Heading/Heading";
-import Icon, {
-  IconColours,
-  Icons,
-  IconSizes,
-} from "../../../components/base/Icon/Icon";
-import ListItem from "../../../components/base/ListItem/ListItem";
-import VerticalSpacing, {
-  SpacingSizes,
-} from "../../../components/base/Spacing/VerticalSpacing";
-import Text, {
-  TextSize,
-  TextColour,
-  TextWeight,
-} from "../../../components/base/Text/Text";
-import Card from "../../../components/HorizontalSlider/components/Card/Card";
-import HorizontalSlider from "../../../components/HorizontalSlider/HorizontalSlider";
-import { Colours } from "../../../constants/globalConstants";
+} from "../base/Heading/Heading";
+import Icon, { IconColours, Icons, IconSizes } from "../base/Icon/Icon";
+import ListItem from "../base/ListItem/ListItem";
+import VerticalSpacing, { SpacingSizes } from "../base/Spacing/VerticalSpacing";
+import Text, { TextSize, TextColour, TextWeight } from "../base/Text/Text";
+import Card from "../HorizontalSlider/components/Card/Card";
+import HorizontalSlider from "../HorizontalSlider/HorizontalSlider";
+import { Colours } from "../../constants/globalConstants";
 import styles from "./ApplicationsLayout.module.scss";
 
 interface IProps {
@@ -74,7 +60,7 @@ const ApplicationsLayout = ({ data, id }: IProps) => {
           <Box
             background={BoxBackground.lightGrey}
             borderRadius={BorderRadii.medium24px}
-            key={`${overview.heading}`}
+            key={overview.heading}
           >
             <div className="row width-100">
               <div className="col-xs-2 col-sm-1">
@@ -109,7 +95,7 @@ const ApplicationsLayout = ({ data, id }: IProps) => {
           <Box
             background={ColourThemes.sustainability.background}
             borderRadius={BorderRadii.medium24px}
-            key={`${sustainability.heading}`}
+            key={sustainability.heading}
           >
             <div className="row width-100">
               <div className="col-xs-2 col-sm-1">
@@ -146,7 +132,7 @@ const ApplicationsLayout = ({ data, id }: IProps) => {
         <Box
           background={ColourThemes.evopack.background}
           borderRadius={BorderRadii.medium24px}
-          key={`${solution.heading}`}
+          key={solution.heading}
         >
           <div className="row width-100">
             <div className="col-xs-12">
@@ -215,6 +201,7 @@ const ApplicationsLayout = ({ data, id }: IProps) => {
                         heading={feature.heading}
                         text={feature.text}
                         icon={feature.icon}
+                        key={feature.text}
                       />
                       <VerticalSpacing size={SpacingSizes.xxl48px} />
                     </>

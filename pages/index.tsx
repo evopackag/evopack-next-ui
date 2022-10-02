@@ -1,5 +1,8 @@
 import { createRef, useContext, useEffect } from "react";
+import useSWR from "swr";
 import type { NextPage } from "next";
+import fsPromises from "fs/promises";
+import path from "path";
 import Head from "next/head";
 import Image from "next/image";
 
@@ -10,19 +13,35 @@ import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import QuoteBox from "../components/QuoteBox/QuoteBox";
 import ContactForm from "../components/ContactForm/ContactForm";
-import HeroSection from "./Home/components/HeroSection/HeroSection";
-import Carousel from "./Home/components/Carousel/Carousel";
-import CardsGrid from "./Home/components/CardsGrid/CardsGrid";
+import HeroSection from "../components/HeroSection/HeroSection";
+import Carousel from "../components/Carousel/Carousel";
+import CardsGrid from "../components/CardsGrid/CardsGrid";
+
+import content from "./api/EvopackContent.json";
 
 import styles from "../styles/Home.module.css";
 import GlobalContext from "../contexts/GlobalContext";
 
-const Home: NextPage = () => {
-  const websiteContent: any = require("./EvopackContent.json");
+import { wData } from "../data";
+
+const fetcher = (url: any) => fetch(url).then((res) => res.json());
+
+type NextProps = {
+  data?: any;
+  error?: any;
+};
+
+const Home: NextPage = (props: any) => {
+  // const contentData: any = content;
+
+  // const { data, error } = useSWR("/api/staticdata", fetcher);
+  // const { data, error } = props;
 
   const { language } = useContext(GlobalContext);
 
-  const languageSpecificContent = websiteContent[language].home;
+  const languageSpecificContent = props[language].home;
+
+  // const languageSpecificContent = content[language].home;
 
   const { hero, cardsGrid, quote, carousel, contactForm } =
     languageSpecificContent;
@@ -38,6 +57,11 @@ const Home: NextPage = () => {
   useEffect(() => {
     document.documentElement.scrollTop = 0;
   }, []);
+
+  //Handle the error state
+  // if (error) return <div>Failed to load</div>;
+  //Handle the loading state
+  // if (!data) return <div>Loading...</div>;
 
   return (
     <div className={styles.container}>
@@ -68,6 +92,12 @@ const Home: NextPage = () => {
       <Footer />
     </div>
   );
+};
+
+export const getStaticProps = async () => {
+  return {
+    props: wData,
+  };
 };
 
 export default Home;

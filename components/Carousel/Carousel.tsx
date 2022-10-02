@@ -4,16 +4,10 @@ import Heading, {
   HeadingColour,
   HeadingSizes,
   HeadingWeights,
-} from "../../../../components/base/Heading/Heading";
+} from "../base/Heading/Heading";
 import LearnMoreCard from "./components/LearnMoreCard/LearnMoreCard";
-import VerticalSpacing, {
-  SpacingSizes,
-} from "../../../../components/base/Spacing/VerticalSpacing";
-import Icon, {
-  IconColours,
-  Icons,
-  IconSizes,
-} from "../../../../components/base/Icon/Icon";
+import VerticalSpacing, { SpacingSizes } from "../base/Spacing/VerticalSpacing";
+import Icon, { IconColours, Icons, IconSizes } from "../base/Icon/Icon";
 
 import styles from "./Carousel.module.css";
 
@@ -126,7 +120,7 @@ const Carousel = ({ data }: IProps) => {
               background={card.icon}
               theme={card.theme}
               buttonTheme={card.buttonTheme}
-              key={`learnMoreCard--${heading}`}
+              key={`learnMoreCard--${card.heading}`}
             />
           );
         })}

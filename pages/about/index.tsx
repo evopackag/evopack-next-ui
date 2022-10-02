@@ -11,13 +11,24 @@ import VerticalSpacing, {
 import styles from "./About.module.css";
 import Footer from "../../components/Footer/Footer";
 import HorizontalDivider from "../../components/base/HorizontalDivider/HorizontalDivider";
+import useSWR from "swr";
 
-const About = () => {
-  const websiteContent: any = require("../EvopackContent.json");
+import { wData } from "../../data";
+
+const fetcher = (url: any) => fetch(url).then((res) => res.json());
+
+const About = (props: any) => {
+  // const websiteContent: any = require("../EvopackContent.json");
+
+  const { data, error } = useSWR("/api/staticdata", fetcher);
 
   const { language } = useContext(GlobalContext);
 
-  const { heading, subheading } = websiteContent[language].about;
+  const { heading, subheading } = props[language].about;
+  //Handle the error state
+  if (error) return <div>Failed to load</div>;
+  //Handle the loading state
+  if (!data) return <div>Loading...</div>;
   return (
     <PageContainer>
       <Header />
@@ -58,6 +69,12 @@ const About = () => {
       <Footer />
     </PageContainer>
   );
+};
+
+export const getStaticProps = async () => {
+  return {
+    props: wData,
+  };
 };
 
 export default About;
