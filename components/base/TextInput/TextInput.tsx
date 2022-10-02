@@ -26,7 +26,7 @@ const TextInput = ({
   label,
   theme = InputColourThemes.light,
   icon,
-  type,
+  type = "text",
   required,
   handleChange,
   fieldID,
@@ -108,7 +108,10 @@ const TextInput = ({
   }
 
   return (
-    <label className={`${styles.textInput} col-xs-12 col-sm-12 col-md-11`}>
+    <label
+      className={`${styles.textInput} col-xs-12 col-sm-12 col-md-11`}
+      htmlFor={fieldID}
+    >
       <input
         // textInput__field--${theme}
         className={`${styles.textInput__field} col-xs-12 width-100`}
@@ -117,7 +120,7 @@ const TextInput = ({
         onInput={(e: React.FormEvent<HTMLInputElement>) =>
           checkInputValue(e.currentTarget.value, fieldID)
         }
-        type="text"
+        type={type}
         name={fieldID}
         onChange={handleChange}
         required={required}

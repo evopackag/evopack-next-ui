@@ -154,6 +154,7 @@ const ContactForm = forwardRef((data?: any, ref?: any) => {
                         setMessage({ email: e.currentTarget.value })
                       }
                       fieldID="mail"
+                      type="email"
                       required
                     />
                     <TextInput
@@ -163,6 +164,7 @@ const ContactForm = forwardRef((data?: any, ref?: any) => {
                         setMessage({ phone: e.currentTarget.value })
                       }
                       fieldID="phone"
+                      type="tel"
                     />
                   </div>
                   <div
