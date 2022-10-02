@@ -124,7 +124,7 @@ const ContactForm = forwardRef((data?: any, ref?: any) => {
                 action="/"
                 onSubmit={handleSubmit}
               >
-                <input type="hidden" name="ContactForm" value="ContactForm" />
+                <input type="hidden" name="form-name" value="ContactForm" />
                 <div className={`${styles.xcontactForm__inputs} row`}>
                   {" "}
                   <div
