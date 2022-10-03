@@ -68,7 +68,7 @@ const ContactForm = forwardRef((data?: any, ref?: any) => {
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: new URLSearchParams(formData).toString(),
       });
-      router.push("/");
+      // router.push("/");
       setSent(true);
     } catch (error) {
       console.log(error);
