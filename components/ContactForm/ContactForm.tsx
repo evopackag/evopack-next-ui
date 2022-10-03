@@ -58,13 +58,13 @@ const ContactForm = forwardRef((data?: any, ref?: any) => {
 
   async function handleSubmit(event: any) {
     event.preventDefault();
-    const formData = new FormData(contactFormRef.current);
+    const formData: any = new FormData(contactFormRef.current);
 
     try {
       await fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams(message).toString(),
+        body: new URLSearchParams(formData).toString(),
       });
       router.push("/");
       setSent(true);
@@ -121,7 +121,7 @@ const ContactForm = forwardRef((data?: any, ref?: any) => {
                 id="ContactForm"
                 ref={ref}
                 data-netlify="true"
-                action="/"
+                // action="/"
                 onSubmit={handleSubmit}
               >
                 <input type="hidden" name="form-name" value="contact" />
@@ -177,15 +177,6 @@ const ContactForm = forwardRef((data?: any, ref?: any) => {
                         setMessage({ message: e.currentTarget.value })
                       }
                     />
-                    {/* <TextInput
-                      label={messagePlaceholder}
-                      type="textarea"
-                      handleChange={(e: React.FormEvent<HTMLTextAreaElement>) =>
-                        setMessage({ message: e.currentTarget.value })
-                      }
-                      fieldID="message"
-                      required
-                    /> */}
                   </div>
                 </div>
 
