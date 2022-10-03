@@ -122,7 +122,7 @@ const ContactForm = forwardRef((data?: any, ref?: any) => {
                 ref={ref}
                 data-netlify="true"
                 action="/"
-                onSubmit={handleSubmit}
+                // onSubmit={handleSubmit}
               >
                 <input type="hidden" name="form-name" value="contact" />
                 <div className={`${styles.contactForm__inputs} row`}>
