@@ -117,14 +117,14 @@ const ContactForm = forwardRef((data?: any, ref?: any) => {
               <form
                 className="padding-top-8 col"
                 method="POST"
-                name="ContactForm"
+                name="contact"
                 id="ContactForm"
                 ref={ref}
                 data-netlify="true"
                 action="/"
                 onSubmit={handleSubmit}
               >
-                <input type="hidden" name="form-name" value="ContactForm" />
+                <input type="hidden" name="form-name" value="contact" />
                 <div className={`${styles.contactForm__inputs} row`}>
                   {" "}
                   <div
