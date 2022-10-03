@@ -66,7 +66,7 @@ const ContactForm = forwardRef((data?: any, ref?: any) => {
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: new URLSearchParams(message).toString(),
       });
-      // router.push("/thankyou");
+      router.push("/");
       setSent(true);
     } catch (error) {}
   }
@@ -122,7 +122,7 @@ const ContactForm = forwardRef((data?: any, ref?: any) => {
                 ref={ref}
                 data-netlify="true"
                 action="/"
-                // onSubmit={handleSubmit}
+                onSubmit={handleSubmit}
               >
                 <input type="hidden" name="form-name" value="contact" />
                 <div className={`${styles.contactForm__inputs} row`}>
