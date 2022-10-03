@@ -15,3 +15,12 @@
     max-width: 800px;
   }
 }
+
+@media screen and (max-width: 450px) {
+  .heroSection {
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+  }
+  
+}
