@@ -11,6 +11,7 @@ import useViewportSize from "../../hooks/useViewportSize/useViewportSize";
 import VerticalSpacing, { SpacingSizes } from "../base/Spacing/VerticalSpacing";
 
 import styles from "./HeroSection.module.css";
+import Link, { ButtonLevel } from "../base/Link/Link";
 
 interface IProps {
   data: any;
@@ -54,6 +55,9 @@ const HeroSection = ({ data, refs, handleCTAClick }: IProps) => {
           type={ButtonTypes.secondaryBlueFilled}
           handleClick={handleCTAClick}
         />
+        {/* <Link level={ButtonLevel.secondaryBlue} href="#contactForm" buttonStyle>
+          {buttonText}
+        </Link> */}
       </section>
     </div>
   );

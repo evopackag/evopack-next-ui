@@ -50,7 +50,7 @@ const Home: NextPage = (props: any) => {
 
   function handleBackClick(ref: any) {
     if (ref && ref.current /* + other conditions */) {
-      ref.current.scrollIntoView({ behavior: "smooth", block: "end" });
+      ref.current.scrollIntoView({ behavior: "smooth", block: "center" });
     }
   }
 

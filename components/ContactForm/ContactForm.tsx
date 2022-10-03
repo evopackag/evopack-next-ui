@@ -1,4 +1,5 @@
 import {
+  createRef,
   forwardRef,
   MutableRefObject,
   useContext,
@@ -29,7 +30,8 @@ import TextArea from "../base/TextArea/TextArea";
 
 const ContactForm = forwardRef((data?: any, ref?: any) => {
   const { language } = useContext(GlobalContext);
-  const contactFormRef = useRef();
+  // const contactFormRef = createRef<HTMLFormElement>();
+  const contactFormRef = useRef<any>();
   const router = useRouter();
 
   const {
@@ -68,11 +70,13 @@ const ContactForm = forwardRef((data?: any, ref?: any) => {
       });
       router.push("/");
       setSent(true);
-    } catch (error) {}
+    } catch (error) {
+      console.log(error);
+    }
   }
 
   return (
-    <div>
+    <div ref={ref}>
       <VerticalSpacing size={SpacingSizes.xs16px} />
       <div
         className={`${styles.contactFormContainer} row center-xs justify-center`}
@@ -119,10 +123,10 @@ const ContactForm = forwardRef((data?: any, ref?: any) => {
                 method="POST"
                 name="contact"
                 id="ContactForm"
-                ref={ref}
+                ref={contactFormRef}
                 data-netlify="true"
-                action="/"
-                // onSubmit={handleSubmit}
+                // action="/"
+                onSubmit={handleSubmit}
               >
                 <input type="hidden" name="form-name" value="contact" />
                 <div className={`${styles.contactForm__inputs} row`}>
