@@ -1,11 +1,11 @@
-.textInput {
-  position: relative;
-  transition: 400ms ease-in-out all;
-  display: flex;
-  align-items: center;
-  margin-top: 1rem;
-  flex-grow: 1;
-}
+// .textInput {
+//   position: relative;
+//   transition: 400ms ease-in-out all;
+//   display: flex;
+//   align-items: center;
+//   margin-top: 1rem;
+//   flex-grow: 1;
+// }
 
 .textInput:first-of-type {
   margin-top: 0;
@@ -128,4 +128,93 @@
   background: rgb(135, 128, 202, 0.5);
   color: white;
   border: 2px solid var(--primary-blue);
+}
+
+
+.textInput {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border-radius: 1rem;
+  color: white;
+  font-size: 1.5rem;
+  justify-content: space-between;
+  height: 80px;
+  min-width: 280px;
+  width: 100%;
+  margin-bottom: 1rem;
+  transition: 400ms ease-in-out all;
+  
+  & input {
+    background: var(--medium-blue);
+    color: var(--off-white);
+    font-size: 1.5rem;
+    line-height: 3rem;
+    display: flex;
+    height: 100%;
+    padding: 2rem 1rem 0.75rem;
+    // padding: 1rem 0.75rem;
+    border: 3px solid var(--primary-blue);
+    border-radius: 1rem;
+    transition: 400ms ease-in-out all;
+
+    &.textInput--light {
+      background: #fff;
+      color: var(--primary-blue);
+      border: 3px solid var(--primary-green);
+    }
+  }
+
+  &__icon {
+    position: absolute;
+    right: 1rem;
+    width: 1rem;
+    height: 1rem;
+  }
+
+  & label {
+    color: white;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 23px;
+    left: 20px;
+    transition: 400ms ease-in-out all;
+    pointer-events: none;
+  }
+
+  &:hover > input {
+    border: 3px solid var(--primary-green);
+  }
+
+  &:hover > label,
+  &:focus > label {
+    position: absolute;
+    opacity: 0.8;
+    top: 1rem;
+    font-size: 0.8rem;
+  }
+
+  &--active > label {
+    position: absolute;
+    opacity: 0.8;
+    top: 1rem;
+    font-size: 0.8rem;
+  }
+
+  &--light {
+    & input {
+      background: #fff;
+      color: var(--primary-blue);
+      border: 3px solid var(--primary-green);
+    }
+
+    & label {
+      color: var(--primary-blue);
+    }
+  }
+
+  & button {
+    position: absolute;
+    right: 1rem;
+  }
 }

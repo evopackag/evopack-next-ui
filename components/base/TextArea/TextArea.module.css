@@ -1,130 +1,43 @@
-.textInput {
+.textarea {
+  width: 100%;
   position: relative;
   transition: 400ms ease-in-out all;
   display: flex;
   align-items: center;
-  margin-top: 1rem;
   flex-grow: 1;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
 }
-
-.textInput:first-of-type {
-  margin-top: 0;
+.textarea textarea {
+  border: none;
+  padding: 2.5rem 1rem;
+  background: var(--medium-blue);
+  color: var(--off-white);
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  transition: 400ms ease-in-out all;
+  border: 3px solid var(--primary-blue);
 }
-
-.textInput__icon {
+.textarea label {
+  color: white;
+  font-size: 1.5rem;
   position: absolute;
-  right: 1rem;
-}
-
-.textInput--textarea {
-  height: 100%;
-}
-
-.textInput__field {
-  padding: 0.75rem 1rem;
-  display: flex;
-  background: var(--medium-blue);
-  border-radius: 1rem;
-  color: white;
-  font-size: 1.5rem;
-  justify-content: space-between;
-  height: 80px;
-  width: 100%;
-  /* min-width: 300px; */
-  border: 3px solid var(--primary-blue);
+  top: 1rem;
+  left: 1.2rem;
   transition: 400ms ease-in-out all;
 }
-
-.textInput__field--full-height {
-  align-items: flex-start;
-  justify-content: flex-start;
-}
-
-.textInput__field--full-height {
-  padding: 0.75rem 1rem;
-  display: flex;
-  background: var(--medium-blue);
-  border-radius: 1rem;
-  color: white;
-  font-size: 1.5rem;
-  justify-content: space-between;
-  height: 100%;
-  /* min-width: 300px; */
-  border: 3px solid var(--primary-blue);
-  transition: 400ms ease-in-out all;
-}
-
-.textInput:hover > .textInput__field,
-.textInput:focus > .textInput__field {
+.textarea:hover > textarea {
   border: 3px solid var(--primary-green);
 }
-
-.textInput__field::placeholder,
-.textInput__field--full-height::placeholder {
-  color: white;
-  font-size: 1.5rem;
-  font: normal;
-  position: absolute;
-  top: 23px;
-  transition: 400ms ease-in-out all;
-}
-
-.textInput:hover > .textInput__field::placeholder,
-.textInput:focus > .textInput__field::placeholder {
+.textarea:hover > label, .textarea:focus > label {
   position: absolute;
   opacity: 0.8;
-  top: 0.5rem;
+  top: 1rem;
   font-size: 0.8rem;
 }
-
-.textInput__field--light {
-  padding: 0.75rem 1.5rem;
-  display: flex;
-  background: none;
-  border-radius: 1rem;
-  color: var(--primary-blue);
-  font-size: 1.5rem;
-  align-items: center;
-  justify-content: space-between;
-  height: auto;
-  border: 3px solid var(--primary-green);
-  transition: 400ms ease-in-out all;
-  width: 100%;
-}
-
-.textInput__field--light::placeholder {
-  font-size: 1.125rem;
-  color: var(--primary-blue);
-  top: 35%;
-}
-
-.textInput__submit {
-  all: unset;
+.textarea--active > label {
   position: absolute;
-  right: 1rem;
-  padding: auto;
-  width: 32px;
-  height: 32px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--light-grey) center center no-repeat;
-  opacity: 0.25;
-  border: 2px solid transparent;
-  border-radius: 100px;
-  cursor: not-allowed;
-}
-
-.textInput__submit.active {
-  opacity: 1;
-  border: 2px solid var(--primary-blue);
-  background: none;
-  cursor: pointer;
-}
-
-.textInput__submit.active:hover,
-.textInput__submit.active:focus {
-  background: rgba(135, 128, 202, 0.5);
-  color: white;
-  border: 2px solid var(--primary-blue);
+  opacity: 0.8;
+  top: 1rem;
+  font-size: 0.8rem;
 }

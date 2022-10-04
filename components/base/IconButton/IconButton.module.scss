@@ -1,0 +1,29 @@
+.iconButton {
+  all: unset;
+  cursor: pointer;
+  border-radius: 100rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all ease-in-out 250ms;
+  background-color: rgb(220, 222, 226);
+  height: 2.5rem;
+  width: 2.5rem;
+  cursor: not-allowed;
+
+  &__icon {
+    // filter: saturate(0);
+    opacity: 0.25;
+    pointer-events: none;
+  }
+
+  &--enabled {
+    cursor: pointer;
+    background: var(--primary-blue);
+  }
+
+  &--enabled .iconButton__icon {
+    opacity: 1;
+    pointer-events:all;
+  }
+}

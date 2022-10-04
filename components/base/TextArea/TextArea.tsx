@@ -4,7 +4,7 @@ import styles from "./TextArea.module.css";
 
 interface IProps {
   label: string;
-  fieldID: any;
+  fieldID: string;
   theme?: InputColourThemes;
   required?: boolean;
   handleChange: (value: any) => void;
@@ -29,9 +29,8 @@ const TextArea = ({
 
   const checkInputValue = (textFieldValue: string, storageID?: string) => {
     if (
-      (textFieldValue?.length &&
-        !INPUTVALUE_REGEX_CHECK.test(textFieldValue)) ||
-      textFieldValue === ""
+      textFieldValue?.length <= 0 &&
+      !INPUTVALUE_REGEX_CHECK.test(textFieldValue)
     ) {
       setActive(false);
       return ERROR_MESSAGE;
@@ -41,20 +40,25 @@ const TextArea = ({
     return true;
   };
 
-  const styleClasses = `${styles[theme]}`;
+  const styleClasses = `${styles["textarea"]} ${
+    styles[`${!active ? "textarea" : "textarea--active"}`]
+  }`;
 
   return (
-    <textarea
-      className={`${styles.textInput} ${styles.textInput__field} height-xs-100`}
-      id={label}
-      placeholder={label}
-      name={fieldID}
-      onInput={(e: React.FormEvent<HTMLTextAreaElement>) =>
-        checkInputValue(e.currentTarget.value, fieldID)
-      }
-      onChange={handleChange}
-      required={required}
-    />
+    <div className={styleClasses}>
+      <textarea
+        className={`height-xs-100`}
+        id={label}
+        // placeholder={label}
+        name={fieldID}
+        onInput={(e: React.FormEvent<HTMLTextAreaElement>) =>
+          checkInputValue(e.currentTarget.value, fieldID)
+        }
+        onChange={handleChange}
+        required={required}
+      />
+      <label htmlFor={fieldID}>{label}</label>
+    </div>
   );
 };
 
