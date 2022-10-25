@@ -306,7 +306,7 @@ export const wData = {
     ],
     careers: {
       heading: "Let's work together",
-      subheading: "We currently have 0 open positions available. If you’re interested in working with us, please get in touch via our contact methods.",
+      subheading: "We currently have 1 open position available. If you’re interested in working with us, we'd love to hear from you.",
       primaryButtonText: "Email us",
       secondaryButtonText: "Call up"
     },
