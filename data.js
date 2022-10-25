@@ -95,7 +95,7 @@ export const wData = {
     applications: [
       {
         heading: "Paints and Coatings",
-        subheading: "The Paints Industry is large, heavily regulated and caters to a plethora of applications, special demands. ",
+        subheading: "The Paints Industry is vast, heavily regulated and caters to a plethora of applications and special demands. ",
         heroImage: "applicationsImages__paints.jpg",
         overview: {
           component: "TextBox",
@@ -621,7 +621,7 @@ export const wData = {
     ],
     careers: {
       heading: "Arbeite mit uns",
-      subheading: "Wir haben derzeitig 0 offene Stellen. Falls Sie Interesse an Zusammenarbeit haben, kontaktieren Sie uns mit unseren Kontaktoptionen.",
+      subheading: "Wir haben derzeitig 1 offene Stelle. Falls du Interesse an Zusammenarbeit hast, würden wir uns freuen, von Dir zu hören.",
       primaryButtonText: "E-Mail schreiben",
       secondaryButtonText: "Anrufen"
     },
