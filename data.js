@@ -312,7 +312,7 @@ export const wData = {
     },
     about: {
       heading: "About EVOPACK",
-      subheading: "We’re a team of engineers, chemists and optimists looking to advance packaging into the 21st centry."
+      subheading: "We’re a team of engineers, chemists and optimists looking to advance packaging into the 21st century."
     }
   },
   german: {
