@@ -653,13 +653,13 @@ export const wData = {
       startDate: "Anfang"
     },
       jobs: [
-        {role: "Bachelor- / Masterthesis: Verpackungs- oder Farb- & Lacktechnik",
+       /* {role: "Bachelor- / Masterthesis: Verpackungs- oder Farb- & Lacktechnik",
         location: "Stuttgart",
         duration: "6 Monate",
         startDate: "ab März 2023",
         href: "https://de.indeed.com/cmp/Evopack-2/jobs?jk=21353f281a9bbe16&start=0&clearPrefilter=1",
         buttonText: "Bewerben"
-        },
+        },*/
         {role: "Bachelor- / Masterthesis: Verpackungs- oder Farb- & Lacktechnik",
         location: "Stuttgart",
         duration: "6 Monate",
