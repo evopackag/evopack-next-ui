@@ -310,7 +310,7 @@ export const wData = {
       primaryButtonText: "Email us",
       secondaryButtonText: "Call up",
       jobsGridHeadings: {
-          roles: "Roles",
+          roles: "Role",
         location: "Location",
         duration: "Duration",
         startDate: "Start date"
