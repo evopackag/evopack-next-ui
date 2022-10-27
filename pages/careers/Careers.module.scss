@@ -8,6 +8,7 @@
     min-height: auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
 
   &__ctas {
@@ -18,6 +19,45 @@
   }
   &__heroSectionHeading {
     width: fit-content;
+  }
+
+  &__jobsGrid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1440px;
+    padding: 0 1rem;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    
+    // &:nth-of-child(even) {
+    //   background-color: var(--light-grey-background);
+    // }
+
+    &Headings {
+      display: grid;
+    grid-template-columns: minmax(160px, 3fr) minmax(160px, 1fr) minmax(160px, 1fr) minmax(160px, 1fr) minmax(160px, 1fr);
+    gap: 1rem;
+      list-style: none;
+      width: 100%;
+      padding: 3rem 0.5rem 1rem 1.5rem;
+    justify-content: space-between;
+    text-align: start;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .careers {
+    &__jobsGrid {
+      margin: 0;
+      padding: 0;
+  
+      &Headings {
+        display: none;
+      }
+    }
   }
 }
 

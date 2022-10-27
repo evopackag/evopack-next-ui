@@ -309,7 +309,23 @@
       "heading": "Let's work together",
       "subheading": "We currently have 1 open position available. If you’re interested in working with us, we'd love to hear from you.",
       "primaryButtonText": "Email us",
-      "secondaryButtonText": "Call up"
+      "secondaryButtonText": "Call up",
+      "jobs": [
+        {"role": "Mechanical Engineer",
+        "location": "Stuttgart",
+        "duration": "Unlimited",
+        "startDate": "23.11.2022",
+        "href": "url.com",
+        "buttonText": "Apply"
+        },
+        {"role": "Chemical Engineer",
+        "location": "Stuttgart",
+        "duration": "7 months",
+        "startDate": "04.12.2022",
+        "href": "url.com",
+        "buttonText": "Apply"
+        }
+      ]
     },
     "about": {
       "heading": "About EVOPACK",

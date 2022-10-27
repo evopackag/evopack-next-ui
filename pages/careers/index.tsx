@@ -18,6 +18,7 @@ import HorizontalDivider from "../../components/base/HorizontalDivider/Horizonta
 import useSWR from "swr";
 
 import { wData } from "../../data";
+import JobPosting from "../../components/JobPosting/JobPosting";
 
 const fetcher = (url: any) => fetch(url).then((res) => res.json());
 
@@ -28,8 +29,10 @@ const Careers = (props: any) => {
 
   const numberOfJobs = [];
 
-  const { heading, subheading, primaryButtonText, secondaryButtonText } =
+  const { heading, subheading, jobs, jobsGridHeadings } =
     props[language].careers;
+
+  console.log(heading);
 
   //Handle the error state
   if (!props) return <div>Failed to load data..</div>;
@@ -40,7 +43,9 @@ const Careers = (props: any) => {
       <Header />
       <VerticalSpacing size={SpacingSizes.xxxl64px} />
       <div className="row">
-        <section className="careers__heroSection width-100 col-xs-12 center-xs">
+        <section
+          className={`${styles.careers__heroSection} width-100 col-xs-12 center-xs`}
+        >
           <div className="col width-100 center-xs middle-xs align-center padding-horizontal-4 careers__heroContent">
             <div className="col width-100 center-xs  careers__heroSectionHeading align-center center-text">
               <VerticalSpacing size={SpacingSizes.md24px} />
@@ -57,7 +62,7 @@ const Careers = (props: any) => {
                 {subheading.split(" ").slice(0, 3).join(" ")}
                 &nbsp;
                 <strong style={{ color: "var(--primary-green)" }}>
-                  {numberOfJobs.length}
+                  {jobs.length}
                 </strong>
                 &nbsp;
                 {subheading
@@ -75,38 +80,31 @@ const Careers = (props: any) => {
           {/* <div className="col careers__ctas">
             <Link href="mailto:info@evopack.tech">Email Us</Link>
           </div> */}
-          <div
-            className={`${styles.careers__ctas} row justify-center middle-xs padding-horizontal-4`}
-          >
-            {/* <Button
-              label="Email Us"
-              type="secondary-blue-filled"
+          <VerticalSpacing size={SpacingSizes.lg32px} />
+          <ul className={styles.careers__jobsGrid}>
+            {jobsGridHeadings && (
+              <li className={styles.careers__jobsGridHeadings}>
+                <Text opacity="0.7">{jobsGridHeadings.roles}</Text>
+                <Text opacity="0.7">{jobsGridHeadings.location}</Text>
+                <Text opacity="0.7">{jobsGridHeadings.duration}</Text>
+                <Text opacity="0.7">{jobsGridHeadings.startDate}</Text>
+              </li>
+            )}
 
-              // handleClick={handleCTAClick}
-            />
-            <Spacing size="xs" />
-            <Button
-              label="Call up"
-              type="secondary-blue"
-
-              // handleClick={handleCTAClick}
-            /> */}
-            <VerticalSpacing size={SpacingSizes.md24px} />
-            <Link
-              level={ButtonLevel.primary}
-              buttonStyle
-              href="mailto:info@evopack.tech"
-            >
-              {primaryButtonText}
-            </Link>
-            <Link
-              level={ButtonLevel.secondaryBlue}
-              buttonStyle
-              href="tel:+41767463355"
-            >
-              {secondaryButtonText}
-            </Link>
-          </div>
+            {jobs &&
+              jobs.map((job: any) => {
+                return (
+                  <JobPosting
+                    duration={job.duration}
+                    href={job.href}
+                    location={job.location}
+                    role={job.role}
+                    startDate={job.startDate}
+                    buttonText={job.buttonText}
+                  />
+                );
+              })}
+          </ul>
           <VerticalSpacing size={SpacingSizes.md24px} />
         </section>
       </div>

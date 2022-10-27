@@ -1,0 +1,36 @@
+.jobPosting {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-radius: 0;
+  text-align: center;
+  list-style: none;
+  padding: 1rem 0;
+}
+.jobPosting:nth-of-type(odd) {
+  background-color: var(--light-grey-background);
+}
+
+@media screen and (min-width: 1024px) {
+  .jobPosting {
+    display: grid;
+    grid-template-columns: minmax(160px, 3fr) minmax(160px, 1fr) minmax(160px, 1fr) minmax(160px, 1fr) minmax(160px, 1fr);
+    gap: 1rem;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 0.5rem 0.5rem 0.5rem 1.5rem;
+    justify-content: space-between;
+    text-align: start;
+  }
+  .jobPosting a {
+    margin-left: auto;
+  }
+  .jobPosting:nth-of-type(odd) {
+    background-color: unset;
+  }
+  .jobPosting:nth-of-type(even) {
+    background-color: var(--light-grey-background);
+  }
+}

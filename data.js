@@ -306,9 +306,31 @@ export const wData = {
     ],
     careers: {
       heading: "Let's work together",
-      subheading: "We currently have 1 open position available. If you’re interested in working with us, we'd love to hear from you.",
+      subheading: "We currently have 1 open positions available. If you’re interested in working with us, we'd love to hear from you.",
       primaryButtonText: "Email us",
-      secondaryButtonText: "Call up"
+      secondaryButtonText: "Call up",
+      jobsGridHeadings: {
+          roles: "Roles",
+        location: "Location",
+        duration: "Duration",
+        startDate: "Start date"
+      },
+      jobs: [
+        {role: "Mastersthesis Packaging, Coating or Paint Technology",
+        location: "Stuttgart",
+        duration: "6 months",
+        startDate: "from März 2023",
+        href: "https://de.indeed.com/cmp/Evopack-2/jobs?jk=21353f281a9bbe16&start=0&clearPrefilter=1",
+        buttonText: "Apply"
+        },
+        {role: "Mastersthesis Packaging, Coating or Paint Technology",
+        location: "Stuttgart",
+        duration: "6 months",
+        startDate: "from März 2023",
+        href: "https://de.indeed.com/cmp/Evopack-2/jobs?jk=3532dba29b0df24a&start=0&clearPrefilter=1",
+        buttonText: "Apply"
+        }
+      ]
     },
     about: {
       heading: "About EVOPACK",
@@ -621,9 +643,31 @@ export const wData = {
     ],
     careers: {
       heading: "Arbeite mit uns",
-      subheading: "Wir haben derzeitig 1 offene Stelle. Falls du Interesse an Zusammenarbeit hast, würden wir uns freuen, von Dir zu hören.",
+      subheading: "Wir haben derzeitig 1 offene Stellen. Falls du Interesse an Zusammenarbeit hast, würden wir uns freuen, von Dir zu hören.",
       primaryButtonText: "E-Mail schreiben",
-      secondaryButtonText: "Anrufen"
+      secondaryButtonText: "Anrufen",
+      jobsGridHeadings: {
+        roles: "Rolle",
+      location: "Ort",
+      duration: "Dauer",
+      startDate: "Anfang"
+    },
+      jobs: [
+        {role: "Bachelor- / Masterthesis: Verpackungs- oder Farb- & Lacktechnik",
+        location: "Stuttgart",
+        duration: "6 Monate",
+        startDate: "ab März 2023",
+        href: "https://de.indeed.com/cmp/Evopack-2/jobs?jk=21353f281a9bbe16&start=0&clearPrefilter=1",
+        buttonText: "Bewerben"
+        },
+        {role: "Bachelor- / Masterthesis: Verpackungs- oder Farb- & Lacktechnik",
+        location: "Stuttgart",
+        duration: "6 Monate",
+        startDate: "ab März 2023",
+        href: "https://de.indeed.com/cmp/Evopack-2/jobs?jk=3532dba29b0df24a&start=0&clearPrefilter=1",
+        buttonText: "Bewerben"
+        }
+      ]
     },
     about: {
       heading: "Über Evopack",
