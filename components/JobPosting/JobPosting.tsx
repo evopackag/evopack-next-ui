@@ -52,7 +52,7 @@ const JobPosting = ({
       <Text>{location}</Text>
       <Text>{duration}</Text>
       <Text>{startDate}</Text>
-      <Link level={ButtonLevel.secondaryBlue} buttonStyle>
+      <Link level={ButtonLevel.secondaryBlue} href={href} buttonStyle>
         {buttonText}
       </Link>
     </li>
