@@ -306,7 +306,7 @@ export const wData = {
     ],
     careers: {
       heading: "Let's work together",
-      subheading: "We currently have 1 open positions available. If you’re interested in working with us, we'd love to hear from you.",
+      subheading: "We currently have 1 open position available. If you’re interested in working with us, we'd love to hear from you.",
       primaryButtonText: "Email us",
       secondaryButtonText: "Call up",
       jobsGridHeadings: {
@@ -316,13 +316,13 @@ export const wData = {
         startDate: "Start date"
       },
       jobs: [
-        {role: "Mastersthesis Packaging, Coating or Paint Technology",
+       /* {role: "Mastersthesis Packaging, Coating or Paint Technology",
         location: "Stuttgart",
         duration: "6 months",
         startDate: "from March 2023",
         href: "https://de.indeed.com/cmp/Evopack-2/jobs?jk=21353f281a9bbe16&start=0&clearPrefilter=1",
         buttonText: "Apply"
-        },
+        },*/
         {role: "Mastersthesis Packaging, Coating or Paint Technology",
         location: "Stuttgart",
         duration: "6 months",
@@ -643,7 +643,7 @@ export const wData = {
     ],
     careers: {
       heading: "Arbeite mit uns",
-      subheading: "Wir haben derzeitig 1 offene Stellen. Falls du Interesse an Zusammenarbeit hast, würden wir uns freuen, von Dir zu hören.",
+      subheading: "Wir haben derzeitig 1 offene Stelle. Falls du Interesse an Zusammenarbeit hast, würden wir uns freuen, von Dir zu hören.",
       primaryButtonText: "E-Mail schreiben",
       secondaryButtonText: "Anrufen",
       jobsGridHeadings: {
