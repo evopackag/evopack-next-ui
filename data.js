@@ -319,14 +319,14 @@ export const wData = {
         {role: "Mastersthesis Packaging, Coating or Paint Technology",
         location: "Stuttgart",
         duration: "6 months",
-        startDate: "from März 2023",
+        startDate: "from March 2023",
         href: "https://de.indeed.com/cmp/Evopack-2/jobs?jk=21353f281a9bbe16&start=0&clearPrefilter=1",
         buttonText: "Apply"
         },
         {role: "Mastersthesis Packaging, Coating or Paint Technology",
         location: "Stuttgart",
         duration: "6 months",
-        startDate: "from März 2023",
+        startDate: "from March 2023",
         href: "https://de.indeed.com/cmp/Evopack-2/jobs?jk=3532dba29b0df24a&start=0&clearPrefilter=1",
         buttonText: "Apply"
         }
