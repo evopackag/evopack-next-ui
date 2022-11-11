@@ -129,21 +129,6 @@ const Header = ({ refs }: IProps) => {
             <img src={`/icons/evopack-logo--blue.svg`} alt="" />
           </a>
         </Link>
-        {isMobile ? (
-          <Toggle
-            options={[
-              {
-                displayText: "EN",
-                value: Languages.English,
-              },
-              {
-                displayText: "DE",
-                value: Languages.German,
-              },
-            ]}
-            toggleTop
-          />
-        ) : null}
 
         {isMobile ? (
           <nav
@@ -295,7 +280,8 @@ const Header = ({ refs }: IProps) => {
             })}
           </nav>
         )}
-        {isMobile ? null : (
+
+        <div className={styles.header__toggleContainer}>
           <Toggle
             options={[
               {
@@ -309,7 +295,7 @@ const Header = ({ refs }: IProps) => {
             ]}
             toggleTop
           />
-        )}
+        </div>
       </div>
     </header>
   );
