@@ -311,10 +311,10 @@ export const wData = {
       primaryButtonText: "Email us",
       secondaryButtonText: "Call up",
       jobsGridHeadings: {
-          roles: "Role",
+         /* roles: "Role",
         location: "Location",
         duration: "Duration",
-        startDate: "Start date"
+        startDate: "Start date"*/
       },
        jobs: [
        /* {role: "Mastersthesis Packaging, Coating or Paint Technology",
@@ -650,10 +650,10 @@ export const wData = {
       primaryButtonText: "E-Mail schreiben",
       secondaryButtonText: "Anrufen",
       jobsGridHeadings: {
-        roles: "Rolle",
+        /* roles: "Rolle",
       location: "Ort",
       duration: "Dauer",
-      startDate: "Anfang"
+      startDate: "Anfang"*/
     },
       jobs: [
        /* {role: "Bachelor- / Masterthesis: Verpackungs- oder Farb- & Lacktechnik",
