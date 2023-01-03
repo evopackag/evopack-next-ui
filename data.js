@@ -310,11 +310,11 @@ export const wData = {
       subheading: "We currently have no open positions available. If you’re interested in working with us, we'd love to hear from you.",
       primaryButtonText: "Email us",
       secondaryButtonText: "Call up",
-      /*jobsGridHeadings: {
+      jobsGridHeadings: {
           roles: "Role",
         location: "Location",
         duration: "Duration",
-        startDate: "Start date"*/
+        startDate: "Start date"
       },
        jobs: [
        /* {role: "Mastersthesis Packaging, Coating or Paint Technology",
@@ -649,11 +649,11 @@ export const wData = {
       subheading: "Wir haben derzeitig keine offene Stellen. Falls du Interesse an Zusammenarbeit hast, würden wir uns freuen, von Dir zu hören.",
       primaryButtonText: "E-Mail schreiben",
       secondaryButtonText: "Anrufen",
-      /*jobsGridHeadings: {
+      jobsGridHeadings: {
         roles: "Rolle",
       location: "Ort",
       duration: "Dauer",
-      startDate: "Anfang"*/
+      startDate: "Anfang"
     },
       jobs: [
        /* {role: "Bachelor- / Masterthesis: Verpackungs- oder Farb- & Lacktechnik",
