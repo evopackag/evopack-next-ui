@@ -673,7 +673,7 @@ export const wData = {
       ]
     },
     about: {
-      heading: "Über Evopack",
+      heading: "Über EVOPACK",
       subheading: "Wir sind ein Team von Ingenieuren, Chemikern und Optimisten, die das Ziel verfolgen, Verpackungen für das 21. Jahrhundert zu entwickeln."
     }
   }
